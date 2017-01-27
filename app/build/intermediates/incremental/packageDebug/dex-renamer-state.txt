@@ -1,4 +1,4 @@
-#Sat Jan 28 03:08:11 SGT 2017
+#Sat Jan 28 04:10:11 SGT 2017
 base.0=E\:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e14de78ead81bdb8cd212af272b4700994b90db7
 renamed.1=classes.dex
 renamed.0=classes2.dex

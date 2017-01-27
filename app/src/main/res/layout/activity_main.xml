@@ -67,6 +67,13 @@
         android:layout_width="wrap_content"
         android:layout_height="70px"
         />
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center" />
     <Button
         android:text="Login"
         android:layout_width="match_parent"
@@ -76,13 +83,6 @@
         android:id="@+id/button"
         android:onClick="login"
         android:elevation="24dp" />
-
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="200px"
-        />
 
 
 

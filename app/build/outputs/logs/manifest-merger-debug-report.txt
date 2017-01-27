@@ -13,6 +13,13 @@ ADDED from E:\waste\sg\android\ADandroid\app\src\main\AndroidManifest.xml:2:1-11
 	android:versionCode
 		INJECTED from E:\waste\sg\android\ADandroid\app\src\main\AndroidManifest.xml
 		INJECTED from E:\waste\sg\android\ADandroid\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\waste\sg\android\ADandroid\app\src\main\AndroidManifest.xml:4:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.2\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from E:\waste\sg\android\ADandroid\app\src\main\AndroidManifest.xml:4:22-76
 uses-permission#android.permission.INTERNET
 ADDED from E:\waste\sg\android\ADandroid\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-analytics:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\AndroidManifest.xml:21:5-67
@@ -270,12 +277,6 @@ ADDED from [com.google.firebase:firebase-messaging:9.0.2] E:\waste\sg\android\AD
 		ADDED from [com.google.firebase:firebase-messaging:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.0.2\AndroidManifest.xml:26:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.0.2\AndroidManifest.xml:25:13-82
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.2\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.2\AndroidManifest.xml:20:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-analytics:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\AndroidManifest.xml:22:22-76
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-analytics:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.2\AndroidManifest.xml:24:5-67

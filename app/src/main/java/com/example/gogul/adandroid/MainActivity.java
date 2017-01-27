@@ -1,6 +1,7 @@
 package com.example.gogul.adandroid;
 
 import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -13,6 +14,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,6 +41,7 @@ public class MainActivity extends AppCompatActivity  {
     String psd="0";
     EditText enteruserid;
     EditText enterpsd;
+    private ProgressBar spinner;
 
 
     @Override
@@ -71,6 +74,7 @@ public class MainActivity extends AppCompatActivity  {
 
 
 
+        spinner = (ProgressBar)findViewById(R.id.progressBar1);
         if(!role.equals("null")) {
             if (role.equals("Store Clerk")) {
                 Intent intent = new Intent(this, UnfulfilledRequisitions.class);
@@ -184,7 +188,7 @@ public class MainActivity extends AppCompatActivity  {
     public void login(View v )
     {
 
-
+        spinner.setVisibility(View.VISIBLE);
         userid=enteruserid.getText().toString();
         psd=enterpsd.getText().toString();
         String token = FirebaseInstanceId.getInstance().getToken();
@@ -204,7 +208,8 @@ public class MainActivity extends AppCompatActivity  {
                 }
                 else if(result.get("authenticate").equals("failed"))
                 {
-                    Toast.makeText(getApplicationContext(), "Please Check User Connection.", Toast.LENGTH_SHORT).show();
+                    spinner.setVisibility(View.GONE);
+                    Toast.makeText(getApplicationContext(), "Please Check your Connection.", Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
@@ -254,7 +259,6 @@ public class MainActivity extends AppCompatActivity  {
         }
         Toast.makeText(getApplicationContext(), "Welcome", Toast.LENGTH_SHORT).show();
     }
-
 
 
 }
