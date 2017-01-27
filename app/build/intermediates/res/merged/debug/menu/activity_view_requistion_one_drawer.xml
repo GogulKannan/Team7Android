@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/png5"
+            android:title="View Requisition List" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/pngaprove"
+            android:title="Approve Requisition" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/pngloc"
+            android:title="Change Collection Point" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/pngtoday"
+            android:title="Today's Collection" />
+    </group>
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single" >
+
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@mipmap/png6"
+            android:title="Log out" />
+    </group>
+
+
+</menu>

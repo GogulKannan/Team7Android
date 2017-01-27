@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_disbursement_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gogul.adandroid.DisbursementList"
+    tools:showIn="@layout/app_bar_disbursement_list"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp"
+        />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Collection Point : "
+            android:textColor="@color/darkblack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:text="Management School "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkblack"
+            android:id="@+id/textloc"
+            android:textSize="18dp"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8dp"
+        />
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Delivery Date: "
+            android:textColor="@color/darkblack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:text="20/1/2017 (10:00 Am)"
+            android:textColor="@color/darkblack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textSize="18dp"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutCompat4">
+        <TextView
+            android:text="Representative : "
+            android:textColor="@color/darkblack"
+            android:layout_width="wrap_content"
+            android:textSize="15dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name23"
+            android:textSize="15dp"
+            android:textColor="@color/darkblack"
+            android:text="Ram   "
+            />
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="call"
+            android:background="@drawable/approvebutton"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/button4"
+            android:onClick="callrep"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="12dp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#1A5276"/>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/headdis">
+        <TextView
+            android:text="Description"
+            android:textColor="@color/darkblack"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:text="Needed"
+            android:textColor="@color/darkblack"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:text="Delivered"
+            android:textColor="@color/darkblack"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp">
+
+        </TextView>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/listitemgive"
+        android:layout_alignParentStart="true"
+        android:layout_weight="0.97" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <Button
+        android:text="Delivery Confirmation"
+        android:textColor="@color/white"
+        android:background="@drawable/approvebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:onClick="sendconfirm"/>
+
+
+</LinearLayout>

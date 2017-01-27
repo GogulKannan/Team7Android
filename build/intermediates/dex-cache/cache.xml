@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_1a74cfc09633016d0489bb8d69d89dcb9c76cbfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_154e933d14d88ec85874ae58b4e97641b59007ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gogul\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_845a557367b5b39724b3388b4ae1bcf9e5aac60d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.0.2_13293a35095634fa3a67035a7a5601d67cc6da16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.0.2_2bbd9eb949c87408b2d0eb70f568bbd722321c60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_38c5b196964ba59d41912ae5f1d6b2749a616c9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da292d65e28bbcf5cd833997e2cfc4c45dfb6f3a">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_532a50520f673cf7fdb1c0fc2e4f89eab80f5779\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.0.2_e5311bc4a497eb87da2eca230bb3901480359770\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_46a19ff663aec88e6ad1029d51ba479621a25885\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_ee014309ef9797bedc6228e826876e51fe87b5c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d900f2a1ff098cac8befe6c023d723e9afb154be">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.0.2_503b6cdcded1d015c88ef38b99dffe9910410530\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gogul\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_c96676ddcb41fe419a60fdde29955216a40ff1b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_25548536a0475105a786cc5e12604c2c80776835\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2774b1e02e5fbc524590311a744263c3b152d63">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.0.2_ac5df0404645f24861da1f390a49778f968395b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_b12eca7223e34f28d723443fe6de191d7a144a72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.0.2_8e412e83c29edf5cbaa7fa7f25d1f5de0f3e36ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_5bb4409e85b914d65643a28715b02b54979e619c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Gogul\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_03c587e5bb4242d75080079cf309a04f87ccafcb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.0.2_b9448d573c1d975659d3153be114da9620962d0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4aab13ccb0c57d8aeb68e52ca96a5d0e8c40c11a">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e14de78ead81bdb8cd212af272b4700994b90db7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_22ba966966d395b6a9d34029efc19310846a8af4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.0.2_2138f9a67b230e2c68470dd57ee7f876db7e6a28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.0.2_77fcf04f4e2d600ed411492b2383bf338989e36a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_22253c3518222fda6d784013e8fb88ad9fa90da1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_21f29227673c640ef293e20eb6d1950de53fba30\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\waste\sg\android\ADandroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_27beaa116ca886ee462388f18f9a84ea561a27eb\classes.dex" />
+    </item>
+
+</items>

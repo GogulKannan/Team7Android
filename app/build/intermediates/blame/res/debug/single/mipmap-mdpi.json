@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ff.png",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\ff.png"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\fff.png",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\fff.png"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\png5.png",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\png5.png"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\pngtoday.png",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\pngtoday.png"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\pngaprove.png",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\pngaprove.png"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\png3.png",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\png3.png"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\png6.png",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\png6.png"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\pngloc.png",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\pngloc.png"
+    }
+]

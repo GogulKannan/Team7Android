@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/bg"
+    tools:context="com.example.gogul.adandroid.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20px"
+        />
+
+    <TextView
+        android:text="Stationery Store Inventory System"
+        android:textSize="11pt"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="60dp"
+        android:id="@+id/app_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80px"
+        />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:hint="Enter User Name"
+        android:textColorHint="@color/white"
+        android:ems="10"
+
+        android:id="@+id/userid" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        />
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:textColorHint="@color/white"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:id="@+id/enterPassword" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70px"
+        />
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:textColor="@color/white"
+        android:id="@+id/button"
+        android:onClick="login"
+        android:elevation="24dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200px"
+        />
+
+
+
+
+
+
+
+</LinearLayout>

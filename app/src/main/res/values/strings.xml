@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SSIS</string>
+    <string name="title_activity_store">Retrieval List</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_department">Department</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_retrieval_all">Retrieval Details</string>
+    <string name="title_activity_disbursement_list">Disbursement Item</string>
+    <string name="title_activity_stock_card">Stock Re-orders</string>
+
+    <string name="country_prompt">Choose Rep</string>
+    <string-array name="country_arrays">
+        <item>Ram</item>
+    </string-array>
+
+    <string name="title_activity_disbursement_mainmenu">Disbursement List</string>
+    <string name="title_activity_stock_supplier">Re-order Details</string>
+    <string name="title_activity_view_requisition">Requisition List</string>
+    <string name="title_activity_approve_requisition">Approve Requisition</string>
+    <string name="title_activity_change_collection">Change Collection Point</string>
+    <string name="title_activity_receive_requisition">Receive Requisition</string>
+
+
+    <string name="country">Choose a point</string>
+
+    <string-array name="countrya">
+        <item>Management School</item>
+        <item>Zoology School</item>
+        <item>Registrar</item>
+        <item>Commerce School</item>
+        <item>English School</item>
+    </string-array>
+    <string name="title_activity_stockdetails">Stockdetails</string>
+    <string name="Supplier1">Call : Gokul </string>
+    <string name="Supplier3">Call : Supplier-3 </string>
+    <string name="Supplier2">Call : Supplier-2 </string>
+    <string name="title_activity_view_requistion_one">Requisition ID :5006 </string>
+    <string name="title_activity_approve_one_req">Approve Requisition</string>
+    <string name="country1">Choose a point</string>
+    <string name="title_activity_view_collection_details">Today\'s Collection</string>
+    <string name="title_activity_delivery_adj">Delivery Adjustment</string>
+    <string name="Price">Price: </string>
+    <string name="sayyes">Yes </string>
+    <string name="sayno">No </string>
+    <string name="title_activity_unfulfilled_requisitions">UnfulfilledRequisitions</string>
+
+
+</resources>

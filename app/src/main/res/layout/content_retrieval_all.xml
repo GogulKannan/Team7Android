@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_retrieval_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gogul.adandroid.RetrievalAll"
+    tools:showIn="@layout/app_bar_retrieval_all"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="10dp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:id="@+id/h1"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Needed Quantity : "
+            android:textColor="@color/gray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/h"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/needed"
+            android:textSize="18dp"
+            android:textColor="@color/gray"
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/h2"
+        android:weightSum="1">
+        <TextView
+            android:text="Retrieved Quantity : "
+            android:textColor="@color/darkblack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            >
+
+        </TextView>
+        <TextView
+            android:text="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkblack"
+            android:textSize="20dp"
+            android:onClick="picker"
+            android:id="@+id/nameRE" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:onClick="picker"
+            android:drawableLeft="@android:drawable/arrow_down_float"
+
+            />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+    <TextView
+android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <Button
+        android:text="collect"
+        android:textColor="@color/white"
+        android:background="@drawable/approvebutton"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/collectupdate"
+        android:onClick="submitretrival"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+
+
+
+</LinearLayout>

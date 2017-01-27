@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_delivery_adj"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gogul.adandroid.DeliveryAdj"
+    tools:showIn="@layout/app_bar_delivery_adj"
+    android:orientation="vertical">
+
+
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutCompat"
+        android:weightSum="1">
+        <TextView
+            android:text="Needed :            "
+            android:textColor="@color/darkblack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+           >
+
+        </TextView>
+        <TextView
+            android:text="20"
+            android:textColor="@color/darkblack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/neededno"
+            android:textSize="20dp">
+        </TextView>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:id="@+id/linearLayoutCompat3">
+        <TextView
+            android:text="Delivered :         "
+            android:textColor="@color/darkblack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+          >
+
+        </TextView>
+
+
+        <TextView
+            android:text="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkblack"
+            android:textSize="20dp"
+            android:onClick="picker"
+            android:id="@+id/delno" />
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content" />
+                <TextView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+                    android:onClick="picker"
+            android:drawableLeft="@android:drawable/arrow_down_float"
+
+            />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remark : "
+        android:id="@+id/tvremark"
+        android:visibility="gone"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="optional"
+        android:visibility="gone"
+        android:ems="10"
+        android:id="@+id/etremark" />
+
+    <Button
+        android:text="confirm"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:background="@drawable/approvebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changed"
+        android:id="@+id/button9" />
+</LinearLayout>
