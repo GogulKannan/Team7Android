@@ -44,9 +44,9 @@ public class wcflogin extends java.util.HashMap<String,String> {
                     b.getString("Role"),  b.getString("Deptid"),b.getString("Permission"),b.getString("EmpName"));
         } catch (Exception e) {
            // Log.e("login", "JSONArray error");
-
+            return new wcflogin("failed","","","","","");
         }
-        return null;
+       // return null;
 
     }
 

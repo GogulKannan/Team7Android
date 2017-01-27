@@ -202,6 +202,10 @@ public class MainActivity extends AppCompatActivity  {
                 if ( result.get("authenticate").equals("true")) {
                    getmein(result);
                 }
+                else if(result.get("authenticate").equals("failed"))
+                {
+                    Toast.makeText(getApplicationContext(), "Please Check User Connection.", Toast.LENGTH_SHORT).show();
+                }
                 else
                 {
                     Toast.makeText(getApplicationContext(), "Please Check User Name and Password.", Toast.LENGTH_SHORT).show();
