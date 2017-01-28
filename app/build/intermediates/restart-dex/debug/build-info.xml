@@ -5,40 +5,59 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="1308052438790766"
+    timestamp="1367057082382801"
     token="-5777497064569825630"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="4990" />
+        duration="8419" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="310" />
     <task
         name="instant-run-transform"
-        duration="219" />
+        duration="292" />
     <task
         name="verifier"
-        duration="12" />
+        duration="61" />
 
     <artifact
-        location="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
-        type="DEX" />
+        location="E:\waste\sg\android\ADandroid\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="1307883893886261"
+        timestamp="1361589774109838"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\waste\sg\android\ADandroid\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="1308052438790766"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1365401651346681"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="E:\waste\sg\android\ADandroid\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
+            type="DEX" />
         <artifact
             location="E:\waste\sg\android\ADandroid\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="1367057082382801"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="E:\waste\sg\android\ADandroid\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

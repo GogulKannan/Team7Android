@@ -8,12 +8,15 @@ import android.os.AsyncTask;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutCompat;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,6 +45,8 @@ public class MainActivity extends AppCompatActivity  {
     EditText enteruserid;
     EditText enterpsd;
     private ProgressBar spinner;
+    LinearLayout fake;
+    Button Loginbtn;
 
 
     @Override
@@ -64,17 +69,14 @@ public class MainActivity extends AppCompatActivity  {
         deptid=pref.getString("deptid", "null");
         permission=pref.getString("permission", "null");
        // EmpName=pref.getString("EmpName", "null");
-
-
-
 //        FirebaseMessaging.getInstance().subscribeToTopic("t");
 //        FirebaseInstanceId.getInstance().getToken();
 //        String token = FirebaseInstanceId.getInstance().getToken();
 //        Log.e("D",token);
 
-
-
-        spinner = (ProgressBar)findViewById(R.id.progressBar1);
+      //  spinner = (ProgressBar)findViewById(R.id.progressBar1);
+        fake = (LinearLayout) findViewById(R.id.progressBar1);
+        Loginbtn =(Button)findViewById(R.id.button);
         if(!role.equals("null")) {
             if (role.equals("Store Clerk")) {
                 Intent intent = new Intent(this, UnfulfilledRequisitions.class);
@@ -101,94 +103,15 @@ public class MainActivity extends AppCompatActivity  {
 
 
 
-    public void Clerk(View v)
-    {
-
-        SharedPreferences.Editor editor = pref.edit();
-        role="Store Clerk";
-        userid="2";
-        deptid="0";
-        editor.putString("userid", userid);
-        editor.putString("role", role);
-        editor.commit();
-        Intent intent = new Intent(this, UnfulfilledRequisitions.class);
-        intent.putExtra("role", role);
-        intent.putExtra("id", userid);
-        startActivity(intent);
-        finishAffinity();
-
-    }
-    public void Employee(View v)
-    {
-        SharedPreferences.Editor editor = pref.edit();
-        role="Employee";
-        userid="14";
-        deptid="4";
-        permission ="1-0-0-0";
-        editor.putString("userid", userid);
-        editor.putString("role", role);
-        editor.putString("deptid", deptid);
-        editor.putString("permission", permission);
-        editor.commit();
-        Intent intent = new Intent(this, ViewRequisition.class);
-        intent.putExtra("role", role);
-        intent.putExtra("id", userid);
-        intent.putExtra("deptid", "4");
-        intent.putExtra("permission", permission);
-        startActivity(intent);
-        finishAffinity();
-
-
-    }
-    public void Boss(View v)
-    {
-        SharedPreferences.Editor editor = pref.edit();
-        role="Department Head";
-        userid="8";
-        deptid="4";
-        permission ="1-1-1-0";
-        editor.putString("userid", userid);
-        editor.putString("role", role);
-        editor.putString("deptid", deptid);
-        editor.putString("permission", permission);
-        editor.commit();
-        Intent intent = new Intent(this, ViewRequisition.class);
-        intent.putExtra("role", role);
-        intent.putExtra("id", userid);
-        intent.putExtra("deptid", "4");
-        intent.putExtra("permission", permission);
-        startActivity(intent);
-        finishAffinity();
-
-    }
-    public void representative(View v)
-    {
-        SharedPreferences.Editor editor = pref.edit();
-        role="Representative";
-        userid="19";
-        deptid="4";
-        permission="1-0-1-1";
-        editor.putString("userid", userid);
-        editor.putString("role", role);
-        editor.putString("deptid", deptid);
-        editor.putString("permission", permission);
-        editor.commit();
-        Intent intent = new Intent(this, ViewRequisition.class);
-        intent.putExtra("role", role);
-        intent.putExtra("id", userid);
-        intent.putExtra("deptid", "4");
-        intent.putExtra("permission", permission);
-        startActivity(intent);
-        finishAffinity();
-
-
-
-    }
-
     public void login(View v )
     {
 
-        spinner.setVisibility(View.VISIBLE);
+       // spinner.setVisibility(View.VISIBLE);
+      fake.setVisibility(View.VISIBLE);
+      // Loginbtn.setVisibility(View.GONE);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
+                WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
         userid=enteruserid.getText().toString();
         psd=enterpsd.getText().toString();
         String token = FirebaseInstanceId.getInstance().getToken();
@@ -208,11 +131,14 @@ public class MainActivity extends AppCompatActivity  {
                 }
                 else if(result.get("authenticate").equals("failed"))
                 {
-                    spinner.setVisibility(View.GONE);
+                    fake.setVisibility(View.GONE);
+                    getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
                     Toast.makeText(getApplicationContext(), "Please Check your Connection.", Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
+                    fake.setVisibility(View.GONE);
+                    getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
                     Toast.makeText(getApplicationContext(), "Please Check User Name and Password.", Toast.LENGTH_SHORT).show();
                 }
             }
