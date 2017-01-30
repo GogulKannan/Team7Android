@@ -20,6 +20,6 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_change_collection"
-        app:menu="@menu/activity_change_collection_drawer" />
+        app:menu="@menu/menufordepartment" />
 
 </android.support.v4.widget.DrawerLayout>

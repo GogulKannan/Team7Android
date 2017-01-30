@@ -20,6 +20,6 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_retrieval_all"
-        app:menu="@menu/activity_retrieval_all_drawer" />
+        app:menu="@menu/menuforclerk" />
 
 </android.support.v4.widget.DrawerLayout>

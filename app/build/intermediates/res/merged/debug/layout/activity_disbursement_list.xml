@@ -20,6 +20,6 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_disbursement_list"
-        app:menu="@menu/activity_disbursement_list_drawer" />
+        app:menu="@menu/menuforclerk" />
 
 </android.support.v4.widget.DrawerLayout>

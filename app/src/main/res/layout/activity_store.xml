@@ -20,6 +20,6 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_store"
-        app:menu="@menu/activity_store_drawer" />
+        app:menu="@menu/menuforclerk" />
 
 </android.support.v4.widget.DrawerLayout>
