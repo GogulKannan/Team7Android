@@ -5,26 +5,26 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="774166614154898"
+    timestamp="775438250677366"
     token="-5904370311402565070"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="453" />
+        duration="486" />
     <task
         name="instant-run-dex"
-        duration="14" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="52" />
     <task
         name="verifier"
-        duration="3" />
+        duration="12" />
 
     <artifact
-        location="C:\Users\E0046709\AndroidStudioProjects\team7\Team7Android\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\E0046709\AndroidStudioProjects\team7\Team7Android\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
+        type="DEX" />
 
     <build
         timestamp="761961238257780"
@@ -41,46 +41,11 @@
             type="DEX" />
     </build>
     <build
-        timestamp="769419653476844"
+        timestamp="775438250677366"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\E0046709\AndroidStudioProjects\team7\Team7Android\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_9\classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="769879731100762"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\E0046709\AndroidStudioProjects\team7\Team7Android\app\build\intermediates\builds\debug\769879731100762\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="773902791140027"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\E0046709\AndroidStudioProjects\team7\Team7Android\app\build\intermediates\builds\debug\773902791140027\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="773977382192033"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\E0046709\AndroidStudioProjects\team7\Team7Android\app\build\intermediates\builds\debug\773977382192033\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="774107411591351"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\E0046709\AndroidStudioProjects\team7\Team7Android\app\build\intermediates\builds\debug\774107411591351\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="774166614154898"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\E0046709\AndroidStudioProjects\team7\Team7Android\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

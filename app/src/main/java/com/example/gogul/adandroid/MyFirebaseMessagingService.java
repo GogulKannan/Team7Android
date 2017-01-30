@@ -95,7 +95,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         intent.putExtra("id", userid);
         intent.putExtra("showdialog", showdialog);
         intent.putExtra("permission", permission);
-        Log.e("gokul",showdialog);
         PendingIntent pendingIntent=PendingIntent.getActivity(this,SEPARATE_INT_VALUE,intent,PendingIntent.FLAG_ONE_SHOT);
 
         SharedPreferences.Editor editor = pref.edit();
