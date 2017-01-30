@@ -86,7 +86,9 @@ public class UnfulfilledRequisitions extends AppCompatActivity
 
         if(getIntent().getExtras().containsKey("showdialog"))
         {
-            dialogmsg();
+          if(i.getStringExtra("showdialog").equals("yes"))
+            dialogmsg(i.getStringExtra("cloc"));
+
         }
 
         new AsyncTask<String, Void, String>() {
@@ -294,10 +296,11 @@ public class UnfulfilledRequisitions extends AppCompatActivity
         startActivity(intent);
     }
 
-    public void dialogmsg()
+    public void dialogmsg(String deptname)
     {
+
         final Dialog d = new Dialog(this);
-        d.setTitle("Requistion Accepted");
+        d.setTitle(deptname);
         d.setContentView(R.layout.successchange);
         d.setCancelable(false);
         Button t = (Button) d.findViewById(R.id.btnsuccok);

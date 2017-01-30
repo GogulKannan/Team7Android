@@ -33,6 +33,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     String pagehead;
     int icon;
     String showdialog="no";
+    int SEPARATE_INT_VALUE=0;
 
 
     @Override
@@ -66,6 +67,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     private void sendNotification(String title,String body){
 
         int notificationNumber = pref.getInt("notificationNumber", 0);
+        int SEPARATE_INT_VALUE = pref.getInt("SEPARATE_INT_VALUE", 0);
         Intent intent ;
         if(intentname.equals("ReceiveRequisition"))
         { intent= new Intent(getApplicationContext(),ReceiveRequisition.class);icon=R.mipmap.pngtoday;}
@@ -75,8 +77,10 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         { intent= new Intent(getApplicationContext(),DisbursementMainmenu.class);icon=R.mipmap.png5;}
         else if(intentname.equals("ApproveRequisition"))
         { intent= new Intent(getApplicationContext(),ApproveRequisition.class);icon=R.mipmap.pngaprove;}
-        else if(intentname.equals("UnfulfilledRequisitions"))
+        else if(intentname.equals("reqaccepted"))
         { intent= new Intent(getApplicationContext(),UnfulfilledRequisitions.class);icon=R.mipmap.png5;showdialog="yes";}
+        else if(intentname.equals("UnfulfilledRequisitions"))
+        { intent= new Intent(getApplicationContext(),UnfulfilledRequisitions.class);icon=R.mipmap.png5;}
         else
         { intent= new Intent(getApplicationContext(),MainActivity.class);}
 
@@ -90,9 +94,14 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         intent.putExtra("role", role);
         intent.putExtra("id", userid);
         intent.putExtra("showdialog", showdialog);
-        Log.e("showwww",showdialog);
         intent.putExtra("permission", permission);
-        PendingIntent pendingIntent=PendingIntent.getActivity(this,0/*request code*/,intent,PendingIntent.FLAG_ONE_SHOT);
+        Log.e("gokul",showdialog);
+        PendingIntent pendingIntent=PendingIntent.getActivity(this,SEPARATE_INT_VALUE,intent,PendingIntent.FLAG_ONE_SHOT);
+
+        SharedPreferences.Editor editor = pref.edit();
+        SEPARATE_INT_VALUE++;
+        editor.putInt("SEPARATE_INT_VALUE", SEPARATE_INT_VALUE);
+        editor.commit();
         Uri notificationSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
         NotificationCompat.Builder notifiBuilder = new NotificationCompat.Builder(this)
@@ -106,10 +115,10 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         notifiManager.notify(notificationNumber, notifiBuilder.build());
 
 
-        SharedPreferences.Editor editor = pref.edit();
+        SharedPreferences.Editor editor1 = pref.edit();
         notificationNumber++;
-        editor.putInt("notificationNumber", notificationNumber);
-        editor.commit();
+        editor1.putInt("notificationNumber", notificationNumber);
+        editor1.commit();
     }
 
 }
