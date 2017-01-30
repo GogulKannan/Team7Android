@@ -7,7 +7,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/team7"
+        android:icon="@mipmap/app"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
@@ -15,18 +15,14 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".Store"
             android:label="@string/title_activity_store"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".Department"
-            android:label="@string/title_activity_department"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" >
+            </activity>
         <activity
             android:name=".RetrievalAll"
             android:label="@string/title_activity_retrieval_all"
@@ -56,13 +52,15 @@
             android:label="@string/title_activity_receive_requisition"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Stockdetails"
-            android:label="@string/title_activity_stockdetails"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".StockCard"
             android:label="@string/title_activity_stock_card"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="gokul" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            </activity>
         <activity
             android:name=".StockSupplier"
             android:label="@string/title_activity_stock_supplier"

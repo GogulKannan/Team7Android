@@ -1,5 +1,6 @@
 package com.example.gogul.adandroid;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -18,6 +19,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
@@ -55,7 +57,7 @@ public class DisbursementMainmenu extends AppCompatActivity
         TextView navUserid = (TextView) headerView.findViewById(R.id.textView);
 
 
-        //menu hiding
+
         Intent i = getIntent();
         role = i.getStringExtra("role");
         userid = i.getStringExtra("id");
@@ -63,6 +65,12 @@ public class DisbursementMainmenu extends AppCompatActivity
         navUserrole.setText(role);
         navUserid.setText(userid);
 
+        if(getIntent().getExtras().containsKey("showdialog"))
+        {
+            if(i.getStringExtra("showdialog").equals("yes"))
+                dialogmsg(i.getStringExtra("cloc"),i.getStringExtra("reqid"));
+
+        }
 
         new AsyncTask<String, Void, List<wcfCDisbursementList>>() {
             @Override
@@ -215,5 +223,24 @@ public class DisbursementMainmenu extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void dialogmsg(String deptname,String location)
+    {
+
+        final Dialog d = new Dialog(this);
+        d.setTitle(deptname);
+        d.setContentView(R.layout.successchange);
+        d.setCancelable(true);
+        TextView msgread= (TextView)d.findViewById(R.id.messagedia);
+        msgread.setText("have changed the collection point to "+location+".");
+        Button t = (Button) d.findViewById(R.id.btnsuccok);
+        t.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                d.dismiss();
+            }
+        });
+        d.show();
     }
 }

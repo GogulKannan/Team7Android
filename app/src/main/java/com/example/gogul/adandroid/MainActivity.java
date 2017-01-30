@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity  {
     EditText enterpsd;
     LinearLayout fake;
     Button Loginbtn;
+    String showdialog="no";
 
 
     @Override
@@ -50,6 +51,11 @@ public class MainActivity extends AppCompatActivity  {
         super.onCreate(savedInstanceState);
         //Remove title bar
         getSupportActionBar().hide();
+
+
+
+
+
 
         setContentView(R.layout.activity_main);
         setTitle("login");
@@ -63,24 +69,67 @@ public class MainActivity extends AppCompatActivity  {
 
         fake = (LinearLayout) findViewById(R.id.progressBar1);
         Loginbtn =(Button)findViewById(R.id.button);
-        if(!role.equals("null")) {
-            if (role.equals("Store Clerk")) {
-                Intent intent = new Intent(this, UnfulfilledRequisitions.class);
-                intent.putExtra("role", role);
-                intent.putExtra("id", userid);
-                startActivity(intent);
-                finishAffinity();
-            }
-            else if (role.equals("Employee")||role.equals("Representative")||role.equals("Department Head")) {
-                Intent intent = new Intent(this, ViewRequisition.class);
-                intent.putExtra("role", role);
-                intent.putExtra("id", userid);
-                intent.putExtra("deptid", deptid);
-                intent.putExtra("permission", permission);
-                startActivity(intent);
-                finishAffinity();
-            }
+
+        // manage notification...
+        Intent getin = getIntent();
+        if (getin.hasExtra("intent")) {
+
+            Intent intent ;
+            String intentname = getin.getStringExtra("intent");
+            String notifyid = getin.getStringExtra("id");
+            String pagehead = getin.getStringExtra("pageHeader");
+            String extraDetail = getin.getStringExtra("extraDetail");
+
+            if(intentname.equals("ReceiveRequisition"))
+            {   intent= new Intent(getApplicationContext(),ReceiveRequisition.class);}
+            else if(intentname.equals("StockCard"))
+            { intent= new Intent(getApplicationContext(),StockCard.class);}
+            else if(intentname.equals("DisbursementList"))
+            { intent= new Intent(getApplicationContext(),DisbursementMainmenu.class);showdialog="yes"; }
+            else if(intentname.equals("ApproveRequisition"))
+            { intent= new Intent(getApplicationContext(),ApproveRequisition.class);}
+            else if(intentname.equals("reqaccepted"))
+            { intent= new Intent(getApplicationContext(),UnfulfilledRequisitions.class);showdialog="yes";}
+            else if(intentname.equals("UnfulfilledRequisitions"))
+            { intent= new Intent(getApplicationContext(),UnfulfilledRequisitions.class);}
+            else
+            { intent= new Intent(getApplicationContext(),MainActivity.class);}
+
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            intent.putExtra("cloc", pagehead);
+            intent.putExtra("time", extraDetail);
+            intent.putExtra("reqid", notifyid);
+            intent.putExtra("deptid", deptid);
+            intent.putExtra("role", role);
+            intent.putExtra("id", userid);
+            intent.putExtra("showdialog", showdialog);
+            intent.putExtra("permission", permission);
+            startActivity(intent);
+            finishAffinity();
         }
+        else
+        {
+            if(!role.equals("null")) {
+                if (role.equals("Store Clerk")) {
+                    Intent intent = new Intent(this, UnfulfilledRequisitions.class);
+                    intent.putExtra("role", role);
+                    intent.putExtra("id", userid);
+                    startActivity(intent);
+                    finishAffinity();
+                }
+                else if (role.equals("Employee")||role.equals("Representative")||role.equals("Department Head")) {
+                    Intent intent = new Intent(this, ViewRequisition.class);
+                    intent.putExtra("role", role);
+                    intent.putExtra("id", userid);
+                    intent.putExtra("deptid", deptid);
+                    intent.putExtra("permission", permission);
+                    startActivity(intent);
+                    finishAffinity();
+                }
+            }
+
+        }
+
     }
 
 

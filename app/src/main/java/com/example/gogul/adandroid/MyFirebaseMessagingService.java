@@ -64,17 +64,17 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         permission=pref.getString("permission", "null");
     }
 
-    private void sendNotification(String title,String body){
+    public void sendNotification(String title,String body){
 
         int notificationNumber = pref.getInt("notificationNumber", 0);
-        int SEPARATE_INT_VALUE = pref.getInt("SEPARATE_INT_VALUE", 0);
+        SEPARATE_INT_VALUE = pref.getInt("SEPARATE_INT_VALUE", 0);
         Intent intent ;
         if(intentname.equals("ReceiveRequisition"))
         { intent= new Intent(getApplicationContext(),ReceiveRequisition.class);icon=R.mipmap.pngtoday;}
         else if(intentname.equals("StockCard"))
         { intent= new Intent(getApplicationContext(),StockCard.class);icon=R.mipmap.png3;}
         else if(intentname.equals("DisbursementList"))
-        { intent= new Intent(getApplicationContext(),DisbursementMainmenu.class);icon=R.mipmap.png5;}
+        { intent= new Intent(getApplicationContext(),DisbursementMainmenu.class);icon=R.mipmap.png5;showdialog="yes";}
         else if(intentname.equals("ApproveRequisition"))
         { intent= new Intent(getApplicationContext(),ApproveRequisition.class);icon=R.mipmap.pngaprove;}
         else if(intentname.equals("reqaccepted"))
