@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\disbursement_list.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\disbursement_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_delivery_adj_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_delivery_adj_drawer.xml"
+    },
+    {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_change_collection_drawer.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_change_collection_drawer.xml"
     },
@@ -8,36 +16,40 @@
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_stock_supplier_drawer.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_delivery_adj_drawer.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_delivery_adj_drawer.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_collection_details.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\view_collection_details.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\store.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\store.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_approve_one_req_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_approve_one_req_drawer.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\delivery_adj.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\delivery_adj.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_stock_supplier_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_stock_supplier_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\department.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\department.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_requistion_one.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\view_requistion_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stock_supplier.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\stock_supplier.xml"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_view_requistion_one_drawer.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_view_requistion_one_drawer.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_retrieval_all_drawer.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_retrieval_all_drawer.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_store_drawer.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_store_drawer.xml"
-    },
-    {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_disbursement_list_drawer.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_disbursement_list_drawer.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stock_card.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\stock_card.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stock_card.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\stock_card.xml"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\receive_requisition.xml",
@@ -48,16 +60,16 @@
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_view_collection_details_drawer.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\approve_one_req.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\approve_one_req.xml"
-    },
-    {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\approve_requisition.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\approve_requisition.xml"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_stock_card_drawer.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_stock_card_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_approve_requisition_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_approve_requisition_drawer.xml"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_department_drawer.xml",
@@ -68,16 +80,20 @@
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\disbursement_mainmenu.xml"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\approve_one_req.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\approve_one_req.xml"
+    },
+    {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_requisition.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\view_requisition.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\change_collection.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\change_collection.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_stock_card_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_stock_card_drawer.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_collection_details.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\view_collection_details.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_retrieval_all_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_retrieval_all_drawer.xml"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_receive_requisition_drawer.xml",
@@ -92,8 +108,24 @@
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_stockdetails_drawer.xml"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_store_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_store_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\delivery_adj.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\delivery_adj.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\store.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\store.xml"
+    },
+    {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stock_supplier.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\stock_supplier.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_receive_requisition_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_receive_requisition_drawer.xml"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\retrieval_all.xml",
@@ -104,8 +136,20 @@
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_disbursement_mainmenu_drawer.xml"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_requisition.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\view_requisition.xml"
+    },
+    {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\unfulfilled_requisitions.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\unfulfilled_requisitions.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_disbursement_mainmenu_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_disbursement_mainmenu_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_department_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_department_drawer.xml"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\disbursement_list.xml",
@@ -116,27 +160,123 @@
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_approve_requisition_drawer.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main2.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\main2.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_view_collection_details_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_view_collection_details_drawer.xml"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_unfulfilled_requisitions_drawer.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_unfulfilled_requisitions_drawer.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\department.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\department.xml"
-    },
-    {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_approve_one_req_drawer.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_approve_one_req_drawer.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stockdetails.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\stockdetails.xml"
-    },
-    {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_requistion_one.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\view_requistion_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main2.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\main2.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_delivery_adj_drawer.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_delivery_adj_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\disbursement_mainmenu.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\disbursement_mainmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_view_requistion_one_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_view_requistion_one_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\retrieval_all.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\retrieval_all.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_change_collection_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_change_collection_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\unfulfilled_requisitions.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\unfulfilled_requisitions.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\store.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\store.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\delivery_adj.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\delivery_adj.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\approve_requisition.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\approve_requisition.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_retrieval_all_drawer.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_retrieval_all_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\change_collection.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\change_collection.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_store_drawer.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\activity_store_drawer.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stock_card.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\stock_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stockdetails.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\stockdetails.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\approve_one_req.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\approve_one_req.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_disbursement_list_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_disbursement_list_drawer.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\change_collection.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\change_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_unfulfilled_requisitions_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_unfulfilled_requisitions_drawer.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_collection_details.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\view_collection_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_stockdetails_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_stockdetails_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\receive_requisition.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\receive_requisition.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main2.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\main2.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\department.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\department.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_view_requisition_drawer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\activity_view_requisition_drawer.xml"
+    },
+    {
+        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\menu\\stockdetails.xml",
+        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\menu\\stockdetails.xml"
     }
 ]

@@ -2,5 +2,9 @@
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
     }
 ]

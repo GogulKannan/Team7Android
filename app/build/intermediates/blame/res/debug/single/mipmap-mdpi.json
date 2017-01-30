@@ -1,7 +1,27 @@
 [
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\pngaprove.png",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-mdpi\\pngaprove.png"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\pngloc.png",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-mdpi\\pngloc.png"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ff.png",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-mdpi\\ff.png"
+    },
+    {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ff.png",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\ff.png"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\png6.png",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-mdpi\\png6.png"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\fff.png",
@@ -20,8 +40,16 @@
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\pngtoday.png"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\pngtoday.png",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-mdpi\\pngtoday.png"
+    },
+    {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\pngaprove.png",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\pngaprove.png"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\fff.png",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-mdpi\\fff.png"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\png3.png",
@@ -30,6 +58,14 @@
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\png6.png",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\mipmap-mdpi\\png6.png"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\png3.png",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-mdpi\\png3.png"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\png5.png",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-mdpi\\png5.png"
     },
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\pngloc.png",

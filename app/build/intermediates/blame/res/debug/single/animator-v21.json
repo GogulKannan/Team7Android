@@ -2,5 +2,9 @@
     {
         "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
         "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }
 ]
