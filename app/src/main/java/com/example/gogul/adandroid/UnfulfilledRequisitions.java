@@ -2,6 +2,8 @@ package com.example.gogul.adandroid;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -214,7 +216,8 @@ public class UnfulfilledRequisitions extends AppCompatActivity
                 }
             }.execute(userid);
 
-
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
 
         }
 

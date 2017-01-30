@@ -3613,13 +3613,14 @@ containing a value of this type.
         public static final int ff=0x7f030002;
         public static final int fff=0x7f030003;
         public static final int ic_launcher=0x7f030004;
-        public static final int png3=0x7f030005;
-        public static final int png5=0x7f030006;
-        public static final int png6=0x7f030007;
-        public static final int pngaprove=0x7f030008;
-        public static final int pngloc=0x7f030009;
-        public static final int pngtoday=0x7f03000a;
-        public static final int team7=0x7f03000b;
+        public static final int makingapp=0x7f030005;
+        public static final int png3=0x7f030006;
+        public static final int png5=0x7f030007;
+        public static final int png6=0x7f030008;
+        public static final int pngaprove=0x7f030009;
+        public static final int pngloc=0x7f03000a;
+        public static final int pngtoday=0x7f03000b;
+        public static final int team7=0x7f03000c;
     }
     public static final class string {
         public static final int Price=0x7f070034;

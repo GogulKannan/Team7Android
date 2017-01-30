@@ -42,10 +42,6 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name="com.example.gogul.adandroid.Department"
-            android:label="@string/title_activity_department"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name="com.example.gogul.adandroid.RetrievalAll"
             android:label="@string/title_activity_retrieval_all"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -72,10 +68,6 @@
         <activity
             android:name="com.example.gogul.adandroid.ReceiveRequisition"
             android:label="@string/title_activity_receive_requisition"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.example.gogul.adandroid.Stockdetails"
-            android:label="@string/title_activity_stockdetails"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.example.gogul.adandroid.StockCard"

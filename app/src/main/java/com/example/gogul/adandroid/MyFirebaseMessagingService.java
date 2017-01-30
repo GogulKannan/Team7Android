@@ -120,4 +120,10 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         editor1.commit();
     }
 
+    public void clearallnotification()
+    {
+        NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+        notifiManager.cancelAll();
+    }
+
 }
