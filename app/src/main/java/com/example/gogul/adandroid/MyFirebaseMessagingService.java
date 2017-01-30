@@ -32,33 +32,25 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     String extraDetail;
     String pagehead;
     int icon;
+    String showdialog="no";
 
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
 
         Log.d(TAG, "From: "+ remoteMessage.getFrom());
-
-        //check if msg contain data
         if(remoteMessage.getData().size()>0){
             Log.d(TAG, "Message Data: "+remoteMessage.getData());
-//            Log.e("data..",remoteMessage.getData().get("intent").toString());
-//            Log.e("data..",remoteMessage.getData().get("deptId").toString());
         }
-//Log.e("log",remoteMessage.getNotification().toString());
-        //check if msg contain notification
-        if(remoteMessage.getNotification() != null){
 
-            Log.d(TAG,"Message Body: "+remoteMessage.getNotification().getBody());
-
-                Log.e("ttile : ",remoteMessage.getNotification().getBody());
-                 getallPre();
+        if(remoteMessage.getNotification() != null)
+        {
+                getallPre();
                 intentname= remoteMessage.getData().get("intent");
                 id= remoteMessage.getData().get("id");
-            pagehead = remoteMessage.getData().get("pageHeader");
-            extraDetail=remoteMessage.getData().get("extraDetail");
-            sendNotification(remoteMessage.getNotification().getTitle(),remoteMessage.getNotification().getBody());
-
+                pagehead = remoteMessage.getData().get("pageHeader");
+                extraDetail=remoteMessage.getData().get("extraDetail");
+                sendNotification(remoteMessage.getNotification().getTitle(),remoteMessage.getNotification().getBody());
         }
     }
 
@@ -70,9 +62,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         deptid=pref.getString("deptid", "null");
         permission=pref.getString("permission", "null");
     }
-    /*display notification
-     * @param body
-     * */
+
     private void sendNotification(String title,String body){
 
         int notificationNumber = pref.getInt("notificationNumber", 0);
@@ -82,17 +72,11 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         else if(intentname.equals("StockCard"))
         { intent= new Intent(getApplicationContext(),StockCard.class);icon=R.mipmap.png3;}
         else if(intentname.equals("DisbursementList"))
-        { intent= new Intent(getApplicationContext(),DisbursementMainmenu.class);
-            icon=R.mipmap.png5;
-        }
+        { intent= new Intent(getApplicationContext(),DisbursementMainmenu.class);icon=R.mipmap.png5;}
         else if(intentname.equals("ApproveRequisition"))
-        { intent= new Intent(getApplicationContext(),ApproveRequisition.class);
-            icon=R.mipmap.pngaprove;
-        }
+        { intent= new Intent(getApplicationContext(),ApproveRequisition.class);icon=R.mipmap.pngaprove;}
         else if(intentname.equals("UnfulfilledRequisitions"))
-        { intent= new Intent(getApplicationContext(),UnfulfilledRequisitions.class);
-            icon=R.mipmap.png5;
-        }
+        { intent= new Intent(getApplicationContext(),UnfulfilledRequisitions.class);icon=R.mipmap.png5;showdialog="yes";}
         else
         { intent= new Intent(getApplicationContext(),MainActivity.class);}
 
@@ -105,9 +89,10 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         intent.putExtra("deptid", deptid);
         intent.putExtra("role", role);
         intent.putExtra("id", userid);
+        intent.putExtra("showdialog", showdialog);
+        Log.e("showwww",showdialog);
         intent.putExtra("permission", permission);
         PendingIntent pendingIntent=PendingIntent.getActivity(this,0/*request code*/,intent,PendingIntent.FLAG_ONE_SHOT);
-        //set notification sound
         Uri notificationSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
         NotificationCompat.Builder notifiBuilder = new NotificationCompat.Builder(this)
@@ -123,7 +108,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
         SharedPreferences.Editor editor = pref.edit();
         notificationNumber++;
-       // Log.e("dsfsfffffffffffffff",Integer.toString(notificationNumber));
         editor.putInt("notificationNumber", notificationNumber);
         editor.commit();
     }

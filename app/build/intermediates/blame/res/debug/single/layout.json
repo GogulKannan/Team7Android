@@ -8,512 +8,44 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_delivery_adj.xml"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_view_requisition.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_view_requisition.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_disbursement_list.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_disbursement_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_requisition.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_view_requisition.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_card.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_stock_card.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_view_requistion_one.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_view_requistion_one.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_collection_details.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_view_collection_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_view_requistion_one.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_view_requistion_one.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_disbursement_mainmenu.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_disbursement_mainmenu.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_change_collection.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_change_collection.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_view_collection_details.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_view_collection_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_stockdetails.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_stockdetails.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_view_requisition.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowreqoone.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowreqoone.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_unfulfilled_requisitions.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_unfulfilled_requisitions.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_view_requistion_one.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_view_requistion_one.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approve_requisition.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_approve_requisition.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_delivery_adj.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_delivery_adj.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_approve_one_req.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_approve_one_req.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_disbursement_list.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_disbursement_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_retrieval_all.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_retrieval_all.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_delivery_adj.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_delivery_adj.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_unfulfilled_requisitions.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_unfulfilled_requisitions.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_view_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_view_requisition.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_disbursement_list.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_disbursement_list.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_retrieval_all.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_retrieval_all.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowapprove.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowapprove.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_store.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_store.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_stock_card.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_stock_card.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_unfulfilled_requisitions.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_unfulfilled_requisitions.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_approve_one_req.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_approve_one_req.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_view_requistion_one.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_view_requistion_one.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_card.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_stock_card.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_stockdetails.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_stockdetails.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_supplier.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_stock_supplier.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_view_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_view_requisition.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowrecive.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\rowrecive.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_change_collection.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_change_collection.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_retrieval_all.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_retrieval_all.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_disbursement_mainmenu.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_disbursement_mainmenu.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_disbursement_mainmenu.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_disbursement_mainmenu.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_department.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_department.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_department.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_department.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_department.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_department.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_stockdetails.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_stockdetails.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approve_one_req.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_approve_one_req.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_change_collection.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_change_collection.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_collection.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_change_collection.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_view_requisition.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_view_requisition.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowstorereq.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\rowstorereq.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_view_collection_details.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_view_collection_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_approve_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_approve_requisition.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_disbursement_mainmenu.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_disbursement_mainmenu.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_delivery_adj.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_delivery_adj.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_disbursement_mainmenu.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_disbursement_mainmenu.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowapprove.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\rowapprove.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\successchange.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\successchange.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_view_requistion_one.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_view_requistion_one.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_store.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_store.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_store.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_store.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_view_collection_details.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_view_collection_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_collection_details.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_view_collection_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_department.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_department.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_collection.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_change_collection.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_stock_supplier.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_stock_supplier.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowremark.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowremark.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approve_one_req.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_approve_one_req.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_view_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_view_requisition.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_approve_requisition.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_approve_requisition.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_unfulfilled_requisitions.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_unfulfilled_requisitions.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\successchange.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\successchange.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\dialog.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_view_collection_details.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_view_collection_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_stock_card.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_stock_card.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowrecive.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowrecive.xml"
-    },
-    {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_unfulfilled_requisitions.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_unfulfilled_requisitions.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_approve_requisition.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_approve_requisition.xml"
     },
     {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_approve_one_req.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_approve_one_req.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowdept.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowdept.xml"
     },
     {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowviewreq.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowviewreq.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_department.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_department.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_requisition.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_view_requisition.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowviewreq.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowviewreq.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
@@ -524,8 +56,8 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_text_input_password_icon.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -536,8 +68,20 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_change_collection.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_change_collection.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_view_requistion_one.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_view_requistion_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_stock_card.xml",
@@ -564,24 +108,32 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_department.xml"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_disbursement_mainmenu.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_disbursement_mainmenu.xml"
+    },
+    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row2.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\row2.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_change_collection.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_change_collection.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_stock_supplier.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_stock_supplier.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_stockdetails.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_stockdetails.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_stockdetails.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_stockdetails.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_department.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_department.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_approve_requisition.xml",
@@ -596,6 +148,10 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_store.xml"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowreqoone.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowreqoone.xml"
+    },
+    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_receive_requisition.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_receive_requisition.xml"
     },
@@ -604,168 +160,108 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_store.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowshortage.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\rowshortage.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowremark.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\rowremark.xml"
-    },
-    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_view_collection_details.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_view_collection_details.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_delivery_adj.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_delivery_adj.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approve_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_approve_requisition.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_unfulfilled_requisitions.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_unfulfilled_requisitions.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_retrieval_all.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_retrieval_all.xml"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_view_requistion_one.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_view_requistion_one.xml"
+    },
+    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approve_requisition.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_approve_requisition.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_delivery_adj.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_delivery_adj.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_stockdetails.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_stockdetails.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_retrieval_all.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_retrieval_all.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\row.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_stock_supplier.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_stock_supplier.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_change_collection.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_change_collection.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row2.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\row2.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_disbursement_list.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_disbursement_list.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_change_collection.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_change_collection.xml"
-    },
-    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_delivery_adj.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_delivery_adj.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_approve_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_approve_requisition.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_supplier.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_stock_supplier.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowapprove.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowapprove.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowreqoone.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\rowreqoone.xml"
-    },
-    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_disbursement_mainmenu.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_disbursement_mainmenu.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_receive_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_receive_requisition.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_stockdetails.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_stockdetails.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_stock_supplier.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_stock_supplier.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_disbursement_list.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_disbursement_list.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_approve_one_req.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_approve_one_req.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_view_requistion_one.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_view_requistion_one.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_approve_one_req.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_approve_one_req.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_approve_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_approve_requisition.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_department.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_department.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_card.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_stock_card.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_receive_requisition.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_receive_requisition.xml"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stock_supplier.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_stock_supplier.xml"
+    },
+    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_requistion_one.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_view_requistion_one.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_retrieval_all.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_retrieval_all.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_view_requisition.xml",
@@ -776,32 +272,28 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_stock_card.xml"
     },
     {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowdept.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\rowdept.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stockdetails.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_stockdetails.xml"
-    },
-    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_retrieval_all.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_retrieval_all.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_change_collection.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_change_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_retrieval_all.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_retrieval_all.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -816,12 +308,8 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\row.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_store.xml",
@@ -832,32 +320,44 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_receive_requisition.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_disbursement_mainmenu.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_disbursement_mainmenu.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_requistion_one.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_view_requistion_one.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_department.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_department.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_department.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_department.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_stock_card.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_stock_card.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_department.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_department.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_stockdetails.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_stockdetails.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_approve_one_req.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_approve_one_req.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_change_collection.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_change_collection.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_collection.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_change_collection.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowviewreq.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\rowviewreq.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_delivery_adj.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_delivery_adj.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_view_requisition.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_view_requisition.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowcollection.xml",
@@ -868,36 +368,24 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_receive_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_receive_requisition.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_stock_card.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_stock_card.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowshortage.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowshortage.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_stock_supplier.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_stock_supplier.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_retrieval_all.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_retrieval_all.xml"
-    },
-    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_stockdetails.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_stockdetails.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_disbursement_list.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_disbursement_list.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_approve_one_req.xml",
@@ -908,52 +396,32 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_approve_one_req.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_unfulfilled_requisitions.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_unfulfilled_requisitions.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_unfulfilled_requisitions.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_unfulfilled_requisitions.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_unfulfilled_requisitions.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_unfulfilled_requisitions.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_receive_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\content_receive_requisition.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_delivery_adj.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_delivery_adj.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_disbursement_mainmenu.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_disbursement_mainmenu.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowcollection.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\rowcollection.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
@@ -964,92 +432,96 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_receive_requisition.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\successchange.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\successchange.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\dialog.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_disbursement_mainmenu.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\nav_header_disbursement_mainmenu.xml"
-    },
-    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_disbursement_list.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_disbursement_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_view_collection_details.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_view_collection_details.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowstorereq.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowstorereq.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_view_collection_details.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_view_collection_details.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_disbursement_mainmenu.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_disbursement_mainmenu.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_search_view.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_view_requistion_one.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_view_requistion_one.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_stock_supplier.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_stock_supplier.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowremark.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowremark.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_approve_requisition.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\nav_header_approve_requisition.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_view_collection_details.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\app_bar_view_collection_details.xml"
     },
     {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_unfulfilled_requisitions.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\activity_unfulfilled_requisitions.xml"
+    },
+    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_disbursement_list.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_disbursement_list.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_store.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_store.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_receive_requisition.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\activity_receive_requisition.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_stock_card.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_stock_card.xml"
     },
     {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_retrieval_all.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\src\\main\\res\\layout\\app_bar_retrieval_all.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "E:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_screen_simple.xml"
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rowrecive.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\rowrecive.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_unfulfilled_requisitions.xml",
+        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\layout\\content_unfulfilled_requisitions.xml"
     },
     {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",

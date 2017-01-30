@@ -840,6 +840,7 @@ int id bottom 0x7f0e0026
 int id bring 0x7f0e00f1
 int id btnclear 0x7f0e00f7
 int id btngenerate 0x7f0e00f5
+int id btnsuccok 0x7f0e0134
 int id btnviewlist 0x7f0e00f6
 int id but 0x7f0e00a7
 int id button 0x7f0e0099
@@ -854,7 +855,6 @@ int id button5 0x7f0e00a9
 int id button8 0x7f0e00cb
 int id button9 0x7f0e00bf
 int id buttonPanel 0x7f0e0069
-int id buttonlocationsucc 0x7f0e0134
 int id cancel_action 0x7f0e011f
 int id center 0x7f0e0027
 int id center_horizontal 0x7f0e0028

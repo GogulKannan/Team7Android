@@ -3126,6 +3126,7 @@ containing a value of this type.
         public static final int bring=0x7f0e00f1;
         public static final int btnclear=0x7f0e00f7;
         public static final int btngenerate=0x7f0e00f5;
+        public static final int btnsuccok=0x7f0e0134;
         public static final int btnviewlist=0x7f0e00f6;
         public static final int but=0x7f0e00a7;
         public static final int button=0x7f0e0099;
@@ -3140,7 +3141,6 @@ containing a value of this type.
         public static final int button8=0x7f0e00cb;
         public static final int button9=0x7f0e00bf;
         public static final int buttonPanel=0x7f0e0069;
-        public static final int buttonlocationsucc=0x7f0e0134;
         public static final int cancel_action=0x7f0e011f;
         public static final int center=0x7f0e0027;
         public static final int center_horizontal=0x7f0e0028;

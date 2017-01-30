@@ -1,6 +1,7 @@
 package com.example.gogul.adandroid;
 
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -44,14 +45,15 @@ public class UnfulfilledRequisitions extends AppCompatActivity
     String userid;
     String role;
     String deptid;
+    String showdialog="no";
     MainActivity logout = new MainActivity();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_unfulfilled_requisitions);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -80,10 +82,12 @@ public class UnfulfilledRequisitions extends AppCompatActivity
         btngenerste = (Button)findViewById(R.id.btngenerate);
         btnviewlist = (Button)findViewById(R.id.btnviewlist);
         btnclear = (Button)findViewById(R.id.btnclear);
-
-
         msg = (TextView) findViewById(R.id.msg);
 
+        if(getIntent().getExtras().containsKey("showdialog"))
+        {
+            dialogmsg();
+        }
 
         new AsyncTask<String, Void, String>() {
             @Override
@@ -93,7 +97,6 @@ public class UnfulfilledRequisitions extends AppCompatActivity
 
             @Override
             protected void onPostExecute(String result) {
-
                 if(result.equals("view"))
                 {
                     btngenerste.setVisibility(View.GONE);
@@ -124,20 +127,15 @@ public class UnfulfilledRequisitions extends AppCompatActivity
 
             }
         }.execute();
-
-
-
-
     }
+
+
     public void showlist(List<wcfStoreRequisitions> result)
     {
         final ListView lv = (ListView) findViewById(R.id.unfulfilllist);
         lv.setAdapter(new SimpleAdapter
                 (this, result, R.layout.rowstorereq, new String[]{"DeptName","ReqStatus"},
                         new int[]{ R.id.text1,R.id.text2}));
-        //lv. lv.setBackgroundColor(Color.parseColor("#9fe7ff"));
-
-      //  Log.e("sd",result.get(0).get("Btnstatus").toString());
         if(result.size()==0)
         {
             listhead.setVisibility(View.GONE);
@@ -147,7 +145,6 @@ public class UnfulfilledRequisitions extends AppCompatActivity
             msg.setText("All requisitions have been processed.\n\nAuto-allocation is done based on requisition order. Manual re-allocation must be performed on desktop before:\n"+
                     "(1) a new retrieval list is generated. \n"+
                     "(2) the disbursement has been collected.\n");
-
         }
         else
         {
@@ -155,7 +152,6 @@ public class UnfulfilledRequisitions extends AppCompatActivity
             unfulfillmentlist.setVisibility(View.VISIBLE);
             msg.setVisibility(View.GONE);
         }
-
     }
 
     @Override
@@ -168,36 +164,12 @@ public class UnfulfilledRequisitions extends AppCompatActivity
         }
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.unfulfilled_requisitions, menu);
-//        return true;
-//    }
-
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
         int id = item.getItemId();
-
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this, UnfulfilledRequisitions.class);
             intent.putExtra("role", role);
             intent.putExtra("id", userid);
@@ -215,9 +187,7 @@ public class UnfulfilledRequisitions extends AppCompatActivity
             intent.putExtra("id", userid);
             startActivity(intent);
             finishAffinity();
-
         } else if (id == R.id.nav_send) {
-
             new AsyncTask<String, Void,String>() {
                 @Override
                 protected String  doInBackground(String... params) {
@@ -268,7 +238,6 @@ public class UnfulfilledRequisitions extends AppCompatActivity
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        //   Toast.makeText(getApplicationContext(), getString(R.string.sayno), Toast.LENGTH_SHORT).show();
                     }
                 })
                 .setIcon(android.R.drawable.ic_dialog_alert)
@@ -323,7 +292,22 @@ public class UnfulfilledRequisitions extends AppCompatActivity
         intent.putExtra("role", role);
         intent.putExtra("id", userid);
         startActivity(intent);
-        //finishAffinity();
+    }
+
+    public void dialogmsg()
+    {
+        final Dialog d = new Dialog(this);
+        d.setTitle("Requistion Accepted");
+        d.setContentView(R.layout.successchange);
+        d.setCancelable(false);
+        Button t = (Button) d.findViewById(R.id.btnsuccok);
+        t.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                d.dismiss();
+            }
+        });
+        d.show();
     }
 
 }

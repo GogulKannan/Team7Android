@@ -38,13 +38,9 @@ public class MainActivity extends AppCompatActivity  {
     String role;
     String deptid;
     String permission;
-    String EmpName;
-
-    String loginid="0";
     String psd="0";
     EditText enteruserid;
     EditText enterpsd;
-    private ProgressBar spinner;
     LinearLayout fake;
     Button Loginbtn;
 
@@ -57,10 +53,6 @@ public class MainActivity extends AppCompatActivity  {
 
         setContentView(R.layout.activity_main);
         setTitle("login");
-
-
-        Log.e("s","login");
-
         pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         enterpsd=(EditText)findViewById(R.id.enterPassword);
         enteruserid = (EditText)findViewById(R.id.userid);
@@ -68,13 +60,7 @@ public class MainActivity extends AppCompatActivity  {
         userid=pref.getString("userid", "null");
         deptid=pref.getString("deptid", "null");
         permission=pref.getString("permission", "null");
-       // EmpName=pref.getString("EmpName", "null");
-//        FirebaseMessaging.getInstance().subscribeToTopic("t");
-//        FirebaseInstanceId.getInstance().getToken();
-//        String token = FirebaseInstanceId.getInstance().getToken();
-//        Log.e("D",token);
 
-      //  spinner = (ProgressBar)findViewById(R.id.progressBar1);
         fake = (LinearLayout) findViewById(R.id.progressBar1);
         Loginbtn =(Button)findViewById(R.id.button);
         if(!role.equals("null")) {
@@ -94,9 +80,6 @@ public class MainActivity extends AppCompatActivity  {
                 startActivity(intent);
                 finishAffinity();
             }
-
-
-
         }
     }
 
@@ -105,11 +88,7 @@ public class MainActivity extends AppCompatActivity  {
 
     public void login(View v )
     {
-
-       // spinner.setVisibility(View.VISIBLE);
-      fake.setVisibility(View.VISIBLE);
-      // Loginbtn.setVisibility(View.GONE);
-
+        fake.setVisibility(View.VISIBLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
                 WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
         userid=enteruserid.getText().toString();
@@ -152,7 +131,6 @@ public class MainActivity extends AppCompatActivity  {
         SharedPreferences.Editor editor = pref.edit();
         role=result.get("role");
         userid=result.get("userid");
-
         deptid=result.get("deptid");
         permission=result.get("Permission");
         editor.putString("userid", userid);
@@ -179,9 +157,6 @@ public class MainActivity extends AppCompatActivity  {
                 startActivity(intent);
                 finishAffinity();
             }
-
-
-
         }
         Toast.makeText(getApplicationContext(), "Welcome", Toast.LENGTH_SHORT).show();
     }

@@ -1,7 +1,7 @@
-#Sat Jan 28 19:04:08 SGT 2017
-base.0=E\:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e14de78ead81bdb8cd212af272b4700994b90db7
+#Mon Jan 30 10:53:06 SGT 2017
+base.0=C\:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_238d912489593bbcb89db7da95e018477b7d9908
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=E\:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_532a50520f673cf7fdb1c0fc2e4f89eab80f5779\\classes.dex
-base.1=E\:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_532a50520f673cf7fdb1c0fc2e4f89eab80f5779
-file.0=E\:\\waste\\sg\\android\\ADandroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_e14de78ead81bdb8cd212af272b4700994b90db7\\classes.dex
+file.1=C\:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_cd78db8eadbc65456b59b9498163ff7165695aa6\\classes.dex
+base.1=C\:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_cd78db8eadbc65456b59b9498163ff7165695aa6
+file.0=C\:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_238d912489593bbcb89db7da95e018477b7d9908\\classes.dex
