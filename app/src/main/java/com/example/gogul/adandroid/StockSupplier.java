@@ -1,5 +1,7 @@
 package com.example.gogul.adandroid;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -29,11 +31,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 public class StockSupplier extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient client;
+
     String role;
     String userid;
     String S1Phone ;
@@ -57,24 +55,15 @@ public class StockSupplier extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
         navigationView.getMenu().getItem(2).setChecked(true);
 
         View headerView = navigationView.getHeaderView(0);
         TextView navUserrole = (TextView) headerView.findViewById(R.id.textView1);
         TextView navUserid = (TextView) headerView.findViewById(R.id.textView);
 
-
-        //menu hiding
         Intent i = getIntent();
         role=i.getStringExtra("role");
         userid=i.getStringExtra("id");
-
-
-
         String ItemName =i.getStringExtra("ItemName");
         String ActualQty =i.getStringExtra("ActualQty");
         String ReorderLevel =i.getStringExtra("ReorderLevel");
@@ -125,38 +114,13 @@ public class StockSupplier extends AppCompatActivity
             super.onBackPressed();
         }
     }
-//
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.stock_supplier, menu);
-//        return true;
-//    }
-
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+
         int id = item.getItemId();
-
-
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this, UnfulfilledRequisitions.class);
             intent.putExtra("role", role);
             intent.putExtra("id", userid);
@@ -181,9 +145,7 @@ public class StockSupplier extends AppCompatActivity
                 @Override
                 protected String  doInBackground(String... params) {
                     return wcflogin.wcflogmeout(params[0]);
-                }
-
-                @Override
+                }                @Override
                 protected void onPostExecute(String result) {
                     if(result.equals("Logged Out"))
                     { pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
@@ -200,8 +162,9 @@ public class StockSupplier extends AppCompatActivity
                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 }
             }.execute(userid);
-            //TODO proper logout
 
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -213,7 +176,6 @@ public class StockSupplier extends AppCompatActivity
         Uri uri = Uri.parse("tel:"+S1Phone);
        Intent i = new Intent(Intent.ACTION_DIAL, uri);
         startActivity(i);
-
     }
 
     public void calls2(View v) {
@@ -229,39 +191,4 @@ public class StockSupplier extends AppCompatActivity
 
     }
 
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    public Action getIndexApiAction() {
-        Thing object = new Thing.Builder()
-                .setName("StockSupplier Page") // TODO: Define a title for the content shown.
-                // TODO: Make sure this auto-generated URL is correct.
-                .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
-                .build();
-        return new Action.Builder(Action.TYPE_VIEW)
-                .setObject(object)
-                .setActionStatus(Action.STATUS_TYPE_COMPLETED)
-                .build();
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client.connect();
-        AppIndex.AppIndexApi.start(client, getIndexApiAction());
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        AppIndex.AppIndexApi.end(client, getIndexApiAction());
-        client.disconnect();
-    }
 }

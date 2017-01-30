@@ -1,6 +1,8 @@
 package com.example.gogul.adandroid;
 
 import android.app.AlertDialog;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -47,21 +49,16 @@ public class Store extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_store);
-        pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
+        pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
 
-
-
-        //code here
         Intent i = getIntent();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View headerView = navigationView.getHeaderView(0);
@@ -77,56 +74,38 @@ public class Store extends AppCompatActivity
         idcoll=(TextView)findViewById(R.id.idcollected);
         lv = (ListView) findViewById(R.id.listall);
 
-
         new AsyncTask<String, Void, List<wcfRetrivalList>>() {
             @Override
             protected List<wcfRetrivalList> doInBackground(String... params) {
-                Log.i("sdsadasdasdsad","?");
                     return wcfRetrivalList.getRetrivalList();
-
             }
-
             @Override
             protected void onPostExecute(List<wcfRetrivalList> result) {
                 forsorting=result;
                 showlist(result);
-
-
-
             }
         }.execute();
-
-
     }
 
 
     public void showlist(List<wcfRetrivalList> result)
     {
-       // final ListView lv = (ListView) findViewById(R.id.listall);
         lv.setAdapter(new SimpleAdapter
                 (this, result, R.layout.row, new String[]{"ItemName", "RequestedQty","Status"},
                         new int[]{ R.id.text1, R.id.text2,R.id.text3}));
-
-
         allcatebuttonhide();
-
         if(result.size()==0)
         {
             idcoll.setVisibility(View.VISIBLE);
             idcoll.setText("No Items in this Category");
             bring.setVisibility(View.GONE);
-
         }
         else idcoll.setVisibility(View.GONE);
 
                 lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-
                 wcfRetrivalList listItem = (wcfRetrivalList) lv.getItemAtPosition(position);
-
-
                     Intent intent = new Intent(getApplicationContext(), RetrievalAll.class);
                     String ItemName = listItem.get("ItemName");
                     intent.putExtra("ItemName", ItemName);
@@ -137,19 +116,12 @@ public class Store extends AppCompatActivity
                     String Status = listItem.get("Status");
                     intent.putExtra("ItemNo", itemid);
                     intent.putExtra("Status", Status);
-
                     intent.putExtra("RetrievedQty", RetrievedQty);
-
                     intent.putExtra("role", role);
                     intent.putExtra("id", userid);
-
                     startActivity(intent);
-
-
             }
         });
-
-
     }
 
 
@@ -165,27 +137,22 @@ public class Store extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+
         getMenuInflater().inflate(R.menu.store, menu);
         return true;
     }
     public void allcatebuttonhide()
     {
         int flag=0;
-        Log.i("forsorting",forsorting.toString());
         for (wcfRetrivalList t:forsorting ) {
-            Log.e("king", t.get("Status"));
             if(t.get("Status").equals("Not Collected"))
             {
                 flag=1;
             }
         }
-//        Log.e("king", String.valueOf(flag));
         if(flag==0)
         {
             bring.setVisibility(View.VISIBLE);
-
-
         }
 
         else if(flag==1)
@@ -197,13 +164,9 @@ public class Store extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.nav_Collected) {
+        int id = item.getItemId();
+            if (id == R.id.nav_Collected) {
             List<wcfRetrivalList> list = new ArrayList<wcfRetrivalList>();
             for (wcfRetrivalList b :forsorting  ) {
                 if((b.get("Status")).equals("Collected"))
@@ -236,12 +199,9 @@ public class Store extends AppCompatActivity
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
 
         int id = item.getItemId();
-
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this, UnfulfilledRequisitions.class);
             intent.putExtra("role", role);
             intent.putExtra("id", userid);
@@ -262,25 +222,38 @@ public class Store extends AppCompatActivity
             finishAffinity();
 
         }else if (id == R.id.nav_send) {
-            SharedPreferences.Editor editor = pref.edit();
-            role="null";
-            editor.putString("userid", role);
-            editor.putString("role", role);
-            editor.commit();
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-            finishAffinity();
-            Toast.makeText(getApplicationContext(), "Logged Out", Toast.LENGTH_SHORT).show();
+            new AsyncTask<String, Void,String>() {
+                @Override
+                protected String  doInBackground(String... params) {
+                    return wcflogin.wcflogmeout(params[0]);
+                }
 
-            //TODO proper logout
-
+                @Override
+                protected void onPostExecute(String result) {
+                    if(result.equals("Logged Out"))
+                    { pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+                        SharedPreferences.Editor editor = pref.edit();
+                        role = "null";
+                        editor.putString("userid", role);
+                        editor.putString("role", role);
+                        editor.commit();
+                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(intent);
+                        finishAffinity();
+                        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();}
+                    else
+                        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
+                }
+            }.execute(userid);
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-    //TODO MAKE IT BETTER PLS.
+
 
 
     public void allocatebutton()
@@ -288,28 +261,21 @@ public class Store extends AppCompatActivity
         new AsyncTask<String, Void, String>() {
             @Override
             protected String doInBackground(String... params) {
-
                 return wcfallocate.getallocate();
-
             }
-
             @Override
             protected void onPostExecute(String result) {
-
                 Intent intent = new Intent(getApplicationContext(), UnfulfilledRequisitions.class);
                 intent.putExtra("role", role);
                 intent.putExtra("id", userid);
                 startActivity(intent);
                 Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 finishAffinity();
-
             }
         }.execute();
     }
         public void bringlisth(View v)
         {
-
-
             new AlertDialog.Builder(this)
                     .setTitle("Confirm Allocation")
                     .setMessage("Once allocated, updates can only be made on desktop.\nConfirm allocation?")
@@ -317,17 +283,15 @@ public class Store extends AppCompatActivity
                     .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
                             allocatebutton();
-
                         }
                     })
                     .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int which) {
-                         //   Toast.makeText(getApplicationContext(), getString(R.string.sayno), Toast.LENGTH_SHORT).show();
+
                         }
                     })
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .show();
-
         }
 
 }

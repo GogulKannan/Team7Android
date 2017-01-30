@@ -48,27 +48,17 @@ public class wcfCDisbursementList extends java.util.HashMap<String,String> {
 
     public static  String SendForConfirmation(String DisbListId)
     {
-        Log.e("dd",DisbListId);
         String a="";
         try{
             a =   JSONParser.getStream(host+"/wcfSendForConfirmation?DisbursementListID="+DisbListId);
-
         }catch (Exception e)
-        {
-            Log.e("changed","done");
-        }
+        {}
         if(a.substring(1,a.length()-2).equals("true"))
         {
             return "Sent";
         }
         else
             return "Sorry, try again.";
-
-
     }
-
-
-
-
 }
 

@@ -1,6 +1,8 @@
 package com.example.gogul.adandroid;
 
 import android.app.Dialog;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -61,24 +63,19 @@ public class DeliveryAdj extends AppCompatActivity
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
-
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
         navigationView.getMenu().getItem(1).setChecked(true);
 
         View headerView = navigationView.getHeaderView(0);
         TextView navUserrole = (TextView) headerView.findViewById(R.id.textView1);
         TextView navUserid = (TextView) headerView.findViewById(R.id.textView);
 
-
-        //menu hiding
         Intent i = getIntent();
         role=i.getStringExtra("role");
         userid=i.getStringExtra("id");
         String name =i.getStringExtra("name");
         Remarks =i.getStringExtra("Remarks");
-        Log.e("rem",Remarks);
         Ddid =i.getStringExtra("Ddid");
         PreQty =i.getStringExtra("PreQty");
         PreQtyno=Integer.parseInt(PreQty);
@@ -91,8 +88,6 @@ public class DeliveryAdj extends AppCompatActivity
         DisListID= i.getStringExtra("DisListID");
         DeliveryDatetime= i.getStringExtra("DeliveryDatetime");
 
-
-
         DisbQtyno=Integer.parseInt(DisbQty);
         setTitle(name);
         Menu nav_Menu = navigationView.getMenu();
@@ -104,7 +99,6 @@ public class DeliveryAdj extends AppCompatActivity
         {
             tvremark.setVisibility(View.VISIBLE);
             etremark.setVisibility(View.VISIBLE);
-            Log.e("redsm",Remarks);
             etremark.setText(Remarks);
         }
         else
@@ -117,12 +111,6 @@ public class DeliveryAdj extends AppCompatActivity
         needed = (TextView) findViewById(R.id.neededno);
         tv.setText(DisbQty);
         needed.setText(PreQty);
-
-
-
-
-
-
     }
 
     public void show()
@@ -134,22 +122,17 @@ public class DeliveryAdj extends AppCompatActivity
         Button b1 = (Button) d.findViewById(R.id.button1);
         Button b2 = (Button) d.findViewById(R.id.button2);
         final NumberPicker np = (NumberPicker) d.findViewById(R.id.numberPicker1);
-
-        np.setMaxValue(PreQtyno); // max value 100
-
-        np.setMinValue(0);   // min value 0
-      // np.setWrapSelectorWheel(true);
-
-        np.setValue(DisbQtyno);//set here da
-
+        np.setMaxValue(PreQtyno);
+        np.setMinValue(0);
+        np.setValue(DisbQtyno);
         b1.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v) {
                 String actual = String.valueOf(np.getValue());
-                tv.setText(actual); //set the value to textview
+                tv.setText(actual);
                 d.dismiss();
-                if(!actual.equals(PreQty)) /// from coming list
+                if(!actual.equals(PreQty))
                 {
                     tvremark.setVisibility(View.VISIBLE);
                     etremark.setVisibility(View.VISIBLE);
@@ -158,20 +141,18 @@ public class DeliveryAdj extends AppCompatActivity
                 {
                     tvremark.setVisibility(View.GONE);
                     etremark.setVisibility(View.GONE);
-                    etremark.getText().clear();                }
-
+                    etremark.getText().clear();
+                }
             }
         });
         b2.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v) {
-                d.dismiss(); // dismiss the dialog
+                d.dismiss();
             }
         });
         d.show();
-
-
     }
 
     @Override
@@ -183,39 +164,13 @@ public class DeliveryAdj extends AppCompatActivity
             super.onBackPressed();
         }
     }
-//
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.delivery_adj, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-
-
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this,UnfulfilledRequisitions.class);
             intent.putExtra("role", role);
             intent.putExtra("id", userid);
@@ -236,40 +191,49 @@ public class DeliveryAdj extends AppCompatActivity
             finishAffinity();
 
         }else if (id == R.id.nav_send) {
-            SharedPreferences.Editor editor = pref.edit();
-            role="null";
-            editor.putString("userid", role);
-            editor.putString("role", role);
-            editor.commit();
-            Intent intent = new Intent(this, MainActivity.class);
-            startActivity(intent);
-            finishAffinity();
-            Toast.makeText(getApplicationContext(), "Logged Out", Toast.LENGTH_SHORT).show();
-
-            //TODO proper logout
-
+            new AsyncTask<String, Void,String>() {
+                @Override
+                protected String  doInBackground(String... params) {
+                    return wcflogin.wcflogmeout(params[0]);
+                }
+                @Override
+                protected void onPostExecute(String result) {
+                    if(result.equals("Logged Out"))
+                    { pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+                        SharedPreferences.Editor editor = pref.edit();
+                        role = "null";
+                        editor.putString("userid", role);
+                        editor.putString("role", role);
+                        editor.commit();
+                        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(intent);
+                        finishAffinity();
+                        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();}
+                    else
+                        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
+                }
+            }.execute(userid);
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
     public void picker(View v)
     {
         show();
     }
+
     public void changed(View v)
     {
-
         String rem= etremark.getText().toString();
-
         String dv= tv.getText().toString();
         wcfDisbursementListDetail c = new wcfDisbursementListDetail();
-
-            c.put("Remarks",rem);
+        c.put("Remarks",rem);
         c.put("DisbQty",dv);
         c.put("Ddid",Ddid);
-
 
         new AsyncTask<wcfDisbursementListDetail, Void, Void>() {
             @Override

@@ -48,9 +48,7 @@ public class wcfRequisitionList extends java.util.HashMap<String,String> {
             for (int i =0; i<a.length(); i++)
                 list.add(a.getString(i));
         } catch (Exception e) {
-            Log.e(".list()", "JSONArray error");
         }
-        Log.i("sad",list.toString());
         return(list);
     }
 
@@ -59,9 +57,7 @@ public class wcfRequisitionList extends java.util.HashMap<String,String> {
         try{
             JSONParser.getStream("http://10.10.2.101/Store/MarkAsCollected?collectedQuantity="+collected+"&itemNo="+itenno);
         }catch (Exception e)
-        {
-            Log.e("collected","done");
-        }
+        {       }
 
         return  null;
     }
@@ -69,12 +65,10 @@ public class wcfRequisitionList extends java.util.HashMap<String,String> {
     public static String updatecollectionpt(String location,String deptid) {
         try{
             String a =   JSONParser.getStream(host+"/wcfChangecollectionpt?dept="+deptid+"&location="+location);
-            Log.i("ggg",a.toString());
-        }catch (Exception e)
+           }catch (Exception e)
         {
             Log.e("changed","done");
         }
-
         return  null;
 
     }

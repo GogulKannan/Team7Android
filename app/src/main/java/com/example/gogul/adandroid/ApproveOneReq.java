@@ -1,5 +1,7 @@
 package com.example.gogul.adandroid;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -88,7 +90,6 @@ public class ApproveOneReq extends AppCompatActivity implements NavigationView.O
             protected List<wcfApproveReqDetails> doInBackground(String... params) {
                 return wcfApproveReqDetails.getApproveReqDetails(params[0],params[1]);
             }
-
             @Override
             protected void onPostExecute(List<wcfApproveReqDetails> result) {
                 showlist(result);
@@ -114,9 +115,6 @@ public class ApproveOneReq extends AppCompatActivity implements NavigationView.O
             super.onBackPressed();
         }
     }
-
-
-
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -182,8 +180,8 @@ public class ApproveOneReq extends AppCompatActivity implements NavigationView.O
                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 }
             }.execute(userid);
-
-
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -198,7 +196,6 @@ public class ApproveOneReq extends AppCompatActivity implements NavigationView.O
             protected String doInBackground(String... params) {
                 return wcfApproveReqDetails.approvereq(params[0]);
             }
-
             @Override
             protected void onPostExecute(String result) {
                 Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
@@ -246,7 +243,6 @@ public class ApproveOneReq extends AppCompatActivity implements NavigationView.O
             protected String doInBackground(String... params) {
                 return wcfApproveReqDetails.rejectreq(params[0],params[1]);
             }
-
             @Override
             protected void onPostExecute(String result) {
                 Intent intent = new Intent(getApplicationContext(), ApproveRequisition.class);

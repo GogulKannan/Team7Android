@@ -1,5 +1,7 @@
 package com.example.gogul.adandroid;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -25,8 +27,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ViewCollectionDetails extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class ViewCollectionDetails extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     String role;
     String userid;
     String deptid;
@@ -41,8 +42,6 @@ public class ViewCollectionDetails extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -56,7 +55,6 @@ public class ViewCollectionDetails extends AppCompatActivity
         TextView navUserrole = (TextView) headerView.findViewById(R.id.textView1);
         TextView navUserid = (TextView) headerView.findViewById(R.id.textView);
 
-        //menu hiding
         Intent i = getIntent();
         role=i.getStringExtra("role");
         userid=i.getStringExtra("id");
@@ -77,21 +75,16 @@ public class ViewCollectionDetails extends AppCompatActivity
         else{ nav_Menu.findItem(R.id.nav_manage).setVisible(false);}
         nav_Menu.findItem(R.id.nav_send).setVisible(true);
 
-
-
-
         new AsyncTask<String, Void, List<wcfTodayCollection>>() {
             @Override
             protected List<wcfTodayCollection> doInBackground(String... params) {
                 return wcfTodayCollection.getTodayCollection(params[0]);
             }
-
             @Override
             protected void onPostExecute(List<wcfTodayCollection> result) {
                 showlist(result);
             }
         }.execute(deptid);
-
     }
 
 
@@ -100,7 +93,6 @@ public class ViewCollectionDetails extends AppCompatActivity
         TextView t = (TextView)findViewById(R.id.notcollection);
         if(result.size()==0)
         {
-
             t.setVisibility(View .VISIBLE);
         }
         else {
@@ -125,7 +117,6 @@ public class ViewCollectionDetails extends AppCompatActivity
                     intent.putExtra("role", role);
                     intent.putExtra("id", userid);
                     intent.putExtra("permission", permission);
-
                     startActivity(intent);
                 }
             });
@@ -141,40 +132,13 @@ public class ViewCollectionDetails extends AppCompatActivity
             super.onBackPressed();
         }
     }
-//
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.view_collection_details, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+
         int id = item.getItemId();
-
-
-
-
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this, ViewRequisition.class);
             intent.putExtra("role", role);
             intent.putExtra("deptid", deptid);
@@ -215,7 +179,6 @@ public class ViewCollectionDetails extends AppCompatActivity
                 protected String  doInBackground(String... params) {
                     return wcflogin.wcflogmeout(params[0]);
                 }
-
                 @Override
                 protected void onPostExecute(String result) {
                     if(result.equals("Logged Out"))
@@ -234,8 +197,9 @@ public class ViewCollectionDetails extends AppCompatActivity
                 }
             }.execute(userid);
 
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

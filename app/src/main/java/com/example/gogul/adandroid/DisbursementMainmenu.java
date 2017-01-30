@@ -1,6 +1,8 @@
 package com.example.gogul.adandroid;
 
 import android.app.Dialog;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -30,10 +32,10 @@ import java.util.List;
 
 public class DisbursementMainmenu extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
     String role;
     String userid;
     SharedPreferences pref;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,7 +43,6 @@ public class DisbursementMainmenu extends AppCompatActivity
         pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -56,32 +57,26 @@ public class DisbursementMainmenu extends AppCompatActivity
         TextView navUserrole = (TextView) headerView.findViewById(R.id.textView1);
         TextView navUserid = (TextView) headerView.findViewById(R.id.textView);
 
-
-
         Intent i = getIntent();
         role = i.getStringExtra("role");
         userid = i.getStringExtra("id");
         Menu nav_Menu = navigationView.getMenu();
         navUserrole.setText(role);
         navUserid.setText(userid);
-
         if(getIntent().getExtras().containsKey("showdialog"))
         {
             if(i.getStringExtra("showdialog").equals("yes"))
                 dialogmsg(i.getStringExtra("cloc"),i.getStringExtra("reqid"));
 
         }
-
         new AsyncTask<String, Void, List<wcfCDisbursementList>>() {
             @Override
             protected List<wcfCDisbursementList> doInBackground(String... params) {
                 return wcfCDisbursementList.getclerkCDisbursementList();
             }
-
             @Override
             protected void onPostExecute(List<wcfCDisbursementList> result) {
                 showlist(result);
-
             }
         }.execute();
     }
@@ -92,8 +87,6 @@ public class DisbursementMainmenu extends AppCompatActivity
         lv.setAdapter(new SimpleAdapter
                 (this, result, R.layout.rowdept, new String[]{"DeptName","DeliveryDatetime" ,"CollectionPoint"},
                         new int[]{ R.id.text1,R.id.text2,R.id.text3}));
-
-
 
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -112,24 +105,16 @@ public class DisbursementMainmenu extends AppCompatActivity
                 intent.putExtra("CollectionPoint", CollectionPoint);
                 intent.putExtra("DisListID", DisListID);
                 intent.putExtra("DeliveryDatetime", DeliveryDatetime);
-
                 intent.putExtra("RepPhone", RepPhone);
                 intent.putExtra("RepName", RepName);
-
 
                 String itemid = listItem.get("Id");
                 intent.putExtra("itemid", itemid);
                 intent.putExtra("role", role);
                 intent.putExtra("id", userid);
-
                 startActivity(intent);
             }
         });
-        for (wcfCDisbursementList re :result ) {
-
-            Log.i("gokul",re.toString());
-
-        }
 
     }
 
@@ -143,37 +128,13 @@ public class DisbursementMainmenu extends AppCompatActivity
             super.onBackPressed();
         }
     }
-//
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.disbursement_mainmenu, menu);
-//        return true;
-//    }
-
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this, UnfulfilledRequisitions.class);
             intent.putExtra("role", role);
             intent.putExtra("id", userid);
@@ -199,7 +160,6 @@ public class DisbursementMainmenu extends AppCompatActivity
                 protected String  doInBackground(String... params) {
                     return wcflogin.wcflogmeout(params[0]);
                 }
-
                 @Override
                 protected void onPostExecute(String result) {
                     if(result.equals("Logged Out"))
@@ -217,9 +177,9 @@ public class DisbursementMainmenu extends AppCompatActivity
                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 }
             }.execute(userid);
-
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

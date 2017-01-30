@@ -1,5 +1,7 @@
 package com.example.gogul.adandroid;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -44,8 +46,6 @@ public class ApproveRequisition extends AppCompatActivity
         pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -61,7 +61,6 @@ public class ApproveRequisition extends AppCompatActivity
         listapprove= (ListView) findViewById(R.id.listapprove);
         msg= (TextView) findViewById(R.id.msg);
 
-        //menu hiding
         Intent i = getIntent();
         role=i.getStringExtra("role");
         userid=i.getStringExtra("id");
@@ -83,9 +82,6 @@ public class ApproveRequisition extends AppCompatActivity
         nav_Menu.findItem(R.id.nav_send).setVisible(true);
 
 
-
-        // getData();
-
         new AsyncTask<String, Void, List<wcfApproveRequisitions>>() {
             @Override
             protected List<wcfApproveRequisitions> doInBackground(String... params) {
@@ -97,14 +93,11 @@ public class ApproveRequisition extends AppCompatActivity
                 showlist(result);
             }
         }.execute(deptid);
-
-
     }
 
 
     public void showlist(List<wcfApproveRequisitions> result)
     {
-        Log.i("p",result.toString());
         final ListView lv = (ListView) findViewById(R.id.listapprove);
         lv.setAdapter(new SimpleAdapter
                 (this, result, R.layout.rowapprove, new String[]{"EmpName","ReqDate"},
@@ -153,27 +146,15 @@ public class ApproveRequisition extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
-        }
+       }
     }
-
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.approve_requisition, menu);
-//        return true;
-//    }
-
-
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+
         int id = item.getItemId();
-
-
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this, ViewRequisition.class);
             intent.putExtra("role", role);
             intent.putExtra("deptid", deptid);
@@ -232,6 +213,8 @@ public class ApproveRequisition extends AppCompatActivity
                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 }
             }.execute(userid);
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
 
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -39,7 +39,6 @@ public class wcfStoreRequisitions extends java.util.HashMap<String,String> {
         } catch (Exception e) {
             Log.e("wcfStoreRequisitions", "JSONArray error");
         }
-        Log.e("a",a.toString());
         return list;
     }
 

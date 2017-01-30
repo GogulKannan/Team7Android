@@ -67,17 +67,12 @@ public class ViewRequisition extends AppCompatActivity
         role = i.getStringExtra("role");
         userid = i.getStringExtra("id");
         deptid = i.getStringExtra("deptid");
-
-
-
         Menu nav_Menu = navigationView.getMenu();
         navUserrole.setText(role);
         navUserid.setText(userid);
 
         permission = i.getStringExtra("permission");
-        Log.e("p",permission.toString());
         String[] substring = permission.split("-");
-        Log.e("array",substring[1].toString());
         if(substring[0].equals("1")){nav_Menu.findItem(R.id.nav_camera).setVisible(true);}
         else{ nav_Menu.findItem(R.id.nav_camera).setVisible(false);}
         if(substring[1].equals("1")){nav_Menu.findItem(R.id.nav_gallery).setVisible(true);}
@@ -94,16 +89,12 @@ public class ViewRequisition extends AppCompatActivity
             protected List<wcfRequisitionList> doInBackground(String... params) {
                 return wcfRequisitionList.reqlist(params[0]);
             }
-
             @Override
             protected void onPostExecute(List<wcfRequisitionList> result) {
                 showlist(result);
                 forsorting=result;
-
             }
         }.execute(deptid);
-
-
     }
 
 
@@ -114,13 +105,10 @@ public class ViewRequisition extends AppCompatActivity
                 (this, result, R.layout.rowviewreq, new String[]{"Name","OrderDate" ,"status"},
                         new int[]{ R.id.text1,R.id.dateorder, R.id.text3}));
 
-
         if(result.size()==0)
         {
             idcoll.setVisibility(View.VISIBLE);
             idcoll.setText("No Items in this Category");
-            //bring.setVisibility(View.GONE);
-
         }
         else idcoll.setVisibility(View.GONE);
 
@@ -145,8 +133,6 @@ public class ViewRequisition extends AppCompatActivity
                 startActivity(intent);
             }
         });
-
-
     }
 
     @Override
@@ -161,19 +147,14 @@ public class ViewRequisition extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.view_requisition, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
+        int id = item.getItemId();
         if (id == R.id.approve) {
             List<wcfRequisitionList> list = new ArrayList<wcfRequisitionList>();
             for (wcfRequisitionList b :forsorting  ) {
@@ -207,19 +188,14 @@ public class ViewRequisition extends AppCompatActivity
             showlist(list);
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
         int id = item.getItemId();
-
-
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this, ViewRequisition.class);
             intent.putExtra("role", role);
             intent.putExtra("deptid", deptid);
@@ -278,6 +254,7 @@ public class ViewRequisition extends AppCompatActivity
                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 }
             }.execute(userid);
+
             NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
             notifiManager.cancelAll();
 

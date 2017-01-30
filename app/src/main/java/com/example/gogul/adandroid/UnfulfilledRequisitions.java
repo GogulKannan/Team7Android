@@ -47,8 +47,6 @@ public class UnfulfilledRequisitions extends AppCompatActivity
     String userid;
     String role;
     String deptid;
-    String showdialog="no";
-    MainActivity logout = new MainActivity();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -90,15 +88,12 @@ public class UnfulfilledRequisitions extends AppCompatActivity
         {
           if(i.getStringExtra("showdialog").equals("yes"))
             dialogmsg(i.getStringExtra("cloc"));
-
         }
-
         new AsyncTask<String, Void, String>() {
             @Override
             protected String doInBackground(String... params) {
                 return wcfStoreRequisitions.getBtnReqList();
             }
-
             @Override
             protected void onPostExecute(String result) {
                 if(result.equals("view"))
@@ -124,11 +119,9 @@ public class UnfulfilledRequisitions extends AppCompatActivity
             protected List<wcfStoreRequisitions> doInBackground(String... params) {
                 return wcfStoreRequisitions.getStoreRequisitions();
             }
-
             @Override
             protected void onPostExecute(List<wcfStoreRequisitions> result) {
             showlist(result);
-
             }
         }.execute();
     }
@@ -238,7 +231,6 @@ public class UnfulfilledRequisitions extends AppCompatActivity
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         GenerateRetrivalconfirm();
-
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -258,7 +250,6 @@ public class UnfulfilledRequisitions extends AppCompatActivity
             protected String doInBackground(String... params) {
                 return wcfStoreRequisitions.GenerateBtnOk();
             }
-
             @Override
             protected void onPostExecute(String result) {
                 Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
@@ -279,7 +270,6 @@ public class UnfulfilledRequisitions extends AppCompatActivity
             protected String doInBackground(String... params) {
                 return wcfStoreRequisitions.ClearbtnOk();
             }
-
             @Override
             protected void onPostExecute(String result) {
                 Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();

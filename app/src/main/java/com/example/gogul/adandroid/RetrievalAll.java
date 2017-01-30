@@ -1,6 +1,8 @@
 package com.example.gogul.adandroid;
 
 import android.app.Dialog;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -36,7 +38,6 @@ public class RetrievalAll extends AppCompatActivity
     String role;
     String userid;
     String max ;
-    TextView textname;
     TextView headerRet;
     TextView space;
     String RetrievedQty;
@@ -44,11 +45,9 @@ public class RetrievalAll extends AppCompatActivity
     String Status;
     LinearLayoutCompat h1;
     LinearLayoutCompat h2;
-    LinearLayoutCompat hu;
     String putinpicker;
     Button colt;
     Button bring;
-    ListView listme;
     SharedPreferences pref;
     String toastupdate="Collected";
 
@@ -66,14 +65,11 @@ public class RetrievalAll extends AppCompatActivity
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
-
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.getMenu().getItem(0).setChecked(true);
 
-        //code here
         Intent i = getIntent();
-       // NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View headerView = navigationView.getHeaderView(0);
         TextView navUserrole = (TextView) headerView.findViewById(R.id.roletx);
         role=i.getStringExtra("role");
@@ -84,12 +80,7 @@ public class RetrievalAll extends AppCompatActivity
 
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.getMenu().getItem(0).setChecked(true);
-//        textname= (TextView) findViewById(R.id.name);
-             headerRet= (TextView) findViewById(R.id.nameRE);
-//
-//        textname.setText(i.getStringExtra("quantity"));
-//        headerRet.setText(i.getStringExtra("quantity"));
-
+        headerRet= (TextView) findViewById(R.id.nameRE);
 
         String header=i.getStringExtra("ItemName");
         max = i.getStringExtra("RequestedQty");
@@ -100,7 +91,6 @@ public class RetrievalAll extends AppCompatActivity
 
         TextView needed = (TextView)findViewById(R.id.needed);
         space = (TextView)findViewById(R.id.space);
-//        Button collectupdate= (Button) findViewById(R.id.collectupdate);
         needed.setText(RequestedQty);
 
         setTitle(header);
@@ -123,9 +113,7 @@ public class RetrievalAll extends AppCompatActivity
             colt.setText("collect");
             headerRet.setText(max);
             putinpicker=max;
-
         }
-
     }
 
     @Override
@@ -137,37 +125,13 @@ public class RetrievalAll extends AppCompatActivity
             super.onBackPressed();
         }
     }
-//
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.retrieval_all, menu);
-//        return true;
-//    }
-
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
+           int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this, UnfulfilledRequisitions.class);
             intent.putExtra("role", role);
             intent.putExtra("id", userid);
@@ -193,7 +157,6 @@ public class RetrievalAll extends AppCompatActivity
                 protected String  doInBackground(String... params) {
                     return wcflogin.wcflogmeout(params[0]);
                 }
-
                 @Override
                 protected void onPostExecute(String result) {
                     if(result.equals("Logged Out"))
@@ -211,10 +174,9 @@ public class RetrievalAll extends AppCompatActivity
                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 }
             }.execute(userid);
-            //TODO proper logout
-
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
         }
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
@@ -228,19 +190,16 @@ public class RetrievalAll extends AppCompatActivity
             protected Void doInBackground(String... params) {
                 return wcfRequisitionList.collected(params[0],params[1]);
             }
-
             @Override
             protected void onPostExecute(Void result) {
             }
         }.execute(collected,ItemNo);
-
         finish();
         Intent intent = new Intent(this, Store.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intent.putExtra("role", role);
         intent.putExtra("id", userid);
         startActivity(intent);
-
         Toast.makeText(getApplicationContext(), toastupdate, Toast.LENGTH_SHORT).show();
     }
 
@@ -257,18 +216,15 @@ public class RetrievalAll extends AppCompatActivity
         Button b1 = (Button) d.findViewById(R.id.button1);
         Button b2 = (Button) d.findViewById(R.id.button2);
         final NumberPicker np = (NumberPicker) d.findViewById(R.id.numberPicker1);
-
-        np.setMaxValue(Integer.parseInt(max)); // max value 100
-
-        np.setMinValue(0);   // min value 0
+        np.setMaxValue(Integer.parseInt(max));
+        np.setMinValue(0);
         np.setValue(Integer.parseInt(putinpicker));
-
         b1.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v) {
                 String actual = String.valueOf(np.getValue());
-                headerRet.setText(actual); //set the value to textview
+                headerRet.setText(actual);
                 d.dismiss();
             }
         });
@@ -276,11 +232,10 @@ public class RetrievalAll extends AppCompatActivity
         {
             @Override
             public void onClick(View v) {
-                d.dismiss(); // dismiss the dialog
+                d.dismiss();
             }
         });
         d.show();
-
     }
 
 }

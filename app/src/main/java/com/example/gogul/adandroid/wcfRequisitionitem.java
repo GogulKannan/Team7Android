@@ -30,8 +30,6 @@ public class wcfRequisitionitem extends java.util.HashMap<String,String> {
     public static List<wcfRequisitionitem> getwcfreqitem(String  deptid,String id) {
         List<wcfRequisitionitem> list = new ArrayList<wcfRequisitionitem>();
         JSONArray a = JSONParser.getJSONArrayFromUrl(host+"/wcfRequisitionItem?d="+deptid+"&r="+id);
-//        Log.i("link","/wcfRequisitionItem/?d="+deptid+"&r="+id);
-        Log.i("json",a.toString());
         try {
             for (int i =0; i<a.length(); i++) {
                 JSONObject b = a.getJSONObject(i);

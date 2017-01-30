@@ -33,14 +33,13 @@ public wcfDisbursementListDetail() {
 public static List<wcfDisbursementListDetail> getDisbursementListDetail(String id) {
         List<wcfDisbursementListDetail> list = new ArrayList<wcfDisbursementListDetail>();
         JSONArray a = JSONParser.getJSONArrayFromUrl(host + "/wcfDisbursementListDetail/"+id);
-        Log.i("json",a.toString());
         try {
         for (int i = 0; i < a.length(); i++) {
         JSONObject b = a.getJSONObject(i);
 
         list.add(new wcfDisbursementListDetail(b.getString("DisbQty"), b.getString("ItemName"), b.getString("Remarks"), b.getString("PreQty"), b.getString("Itemid"),b.getString("Ddid")));}
         } catch (Exception e) {
-        Log.e("sementListDetail", "JSONArray error");
+        Log.e("wcfDisburs", "JSONArray error");
         }
         return list;
         }
@@ -51,15 +50,9 @@ public static List<wcfDisbursementListDetail> getDisbursementListDetail(String i
                         jc.put("DisbQty",c.get("DisbQty"));
                         jc.put("Remarks",c.get("Remarks"));
                         jc.put("Ddid",c.get("Ddid"));
-
-
-
                 } catch (Exception e) {
                 }
                 String result = JSONParser.postStream(host+"/UpdateDisbQty", jc.toString());
         }
-
-
-
         }
 

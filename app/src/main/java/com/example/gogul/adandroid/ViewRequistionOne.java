@@ -1,5 +1,7 @@
 package com.example.gogul.adandroid;
 
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -62,8 +64,6 @@ public class ViewRequistionOne extends AppCompatActivity
 
         orderdate = (TextView)findViewById(R.id.orderhere);
 
-
-        //menu hiding
         Intent i = getIntent();
         role=i.getStringExtra("role");
         userid=i.getStringExtra("id");
@@ -97,21 +97,15 @@ public class ViewRequistionOne extends AppCompatActivity
 
 
         new AsyncTask<String, Void, List<wcfRequisitionitem>>() {
-
             @Override
             protected List<wcfRequisitionitem> doInBackground(String... params) {
-                Log.i("one",itemid);
                 return wcfRequisitionitem.getwcfreqitem(params[0],params[1]);
             }
-
             @Override
             protected void onPostExecute(List<wcfRequisitionitem> result) {
                 showlist(result);
             }
         }.execute(deptid,itemid);
-
-
-
     }
 
 
@@ -121,11 +115,7 @@ public class ViewRequistionOne extends AppCompatActivity
         lv.setAdapter(new SimpleAdapter
                 (this, result, R.layout.rowreqoone, new String[]{"itemname", "quanity","uom"},
                         new int[]{ R.id.text1, R.id.text2,R.id.text3}));
-
-
-
-
-}
+    }
 
     @Override
     public void onBackPressed() {
@@ -136,39 +126,13 @@ public class ViewRequistionOne extends AppCompatActivity
             super.onBackPressed();
         }
     }
-//
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.view_requistion_one, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+
         int id = item.getItemId();
-
-
-
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this, ViewRequisition.class);
             intent.putExtra("role", role);
             intent.putExtra("deptid", deptid);
@@ -184,7 +148,6 @@ public class ViewRequistionOne extends AppCompatActivity
             intent.putExtra("permission", permission);
             startActivity(intent);
             finishAffinity();
-
         } else if (id == R.id.nav_slideshow) {
             Intent intent = new Intent(this, ChangeCollection.class);
             intent.putExtra("role", role);
@@ -193,7 +156,6 @@ public class ViewRequistionOne extends AppCompatActivity
             intent.putExtra("permission", permission);
             startActivity(intent);
             finishAffinity();
-
         } else if (id == R.id.nav_manage) {
             Intent intent = new Intent(this, ViewCollectionDetails.class);
             intent.putExtra("role", role);
@@ -202,14 +164,12 @@ public class ViewRequistionOne extends AppCompatActivity
             intent.putExtra("permission", permission);
             startActivity(intent);
             finishAffinity();
-
         } else if (id == R.id.nav_send) {
             new AsyncTask<String, Void,String>() {
                 @Override
                 protected String  doInBackground(String... params) {
                     return wcflogin.wcflogmeout(params[0]);
                 }
-
                 @Override
                 protected void onPostExecute(String result) {
                     if(result.equals("Logged Out"))
@@ -228,6 +188,8 @@ public class ViewRequistionOne extends AppCompatActivity
                 }
             }.execute(userid);
 
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

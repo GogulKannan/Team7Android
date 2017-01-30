@@ -2,6 +2,8 @@ package com.example.gogul.adandroid;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -32,6 +34,7 @@ import java.util.List;
 
 public class ChangeCollection extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
     String role;
     String userid;
     String deptid;
@@ -39,7 +42,6 @@ public class ChangeCollection extends AppCompatActivity
     String current = "o";
     List<String> spinnerArray = new ArrayList<String>();
     String permission;
-
     SharedPreferences pref;
 
     @Override
@@ -49,7 +51,6 @@ public class ChangeCollection extends AppCompatActivity
         pref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -63,7 +64,6 @@ public class ChangeCollection extends AppCompatActivity
         TextView navUserrole = (TextView) headerView.findViewById(R.id.textView1);
         TextView navUserid = (TextView) headerView.findViewById(R.id.textView);
 
-        //menu hiding
         Intent i = getIntent();
         role = i.getStringExtra("role");
         userid = i.getStringExtra("id");
@@ -84,10 +84,6 @@ public class ChangeCollection extends AppCompatActivity
         else{ nav_Menu.findItem(R.id.nav_manage).setVisible(false);}
         nav_Menu.findItem(R.id.nav_send).setVisible(true);
 
-
-
-        // List<String> spinnerArray =  new ArrayList<String>();
-
         spinnerArray.add("Stationery Store 09:30:00");
         spinnerArray.add("Management School 11:00:00");
         spinnerArray.add("Medical School 09:30:00");
@@ -97,24 +93,18 @@ public class ChangeCollection extends AppCompatActivity
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
                 this, android.R.layout.simple_spinner_item, spinnerArray);
-
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         sItems = (Spinner) findViewById(R.id.spinner2);
-
         sItems.setAdapter(adapter);
-
 
         new AsyncTask<String, Void, List<String>>() {
             @Override
             protected List<String> doInBackground(String... params) {
-
                 return wcfRequisitionList.spinnercall(params[0]);
             }
-
             @Override
             protected void onPostExecute(List<String> result) {
                 current = result.get(0);
-
                 for (int t = 0; t < spinnerArray.size(); t++) {
                     if (current.equals(spinnerArray.get(t))) {
                         sItems.setSelection(t);
@@ -122,7 +112,6 @@ public class ChangeCollection extends AppCompatActivity
                 }
             }
         }.execute(deptid);
-
     }
 
     @Override
@@ -134,39 +123,13 @@ public class ChangeCollection extends AppCompatActivity
             super.onBackPressed();
         }
     }
-//
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.change_collection, menu);
-//        return true;
-//    }
-
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
+
         int id = item.getItemId();
-
-
-
         if (id == R.id.nav_camera) {
-            // Handle the camera action
             Intent intent = new Intent(this, ViewRequisition.class);
             intent.putExtra("role", role);
             intent.putExtra("deptid", deptid);
@@ -225,9 +188,9 @@ public class ChangeCollection extends AppCompatActivity
                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 }
             }.execute(userid);
-
-        }
-
+            NotificationManager notifiManager = (NotificationManager)getSystemService(Context.NOTIFICATION_SERVICE);
+            notifiManager.cancelAll();
+      }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
@@ -236,7 +199,6 @@ public class ChangeCollection extends AppCompatActivity
     String selected;
 
     public void savechange(View v) {
-        //get it from there
         selected = sItems.getSelectedItem().toString();
         new AlertDialog.Builder(this)
                 .setTitle("Confirm Change?")
@@ -250,36 +212,28 @@ public class ChangeCollection extends AppCompatActivity
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        //   Toast.makeText(getApplicationContext(), getString(R.string.sayno), Toast.LENGTH_SHORT).show();
+
                     }
                 })
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .show();
-
     }
-
-
 
     public void dialogSuccessfull()
     {
         selected = sItems.getSelectedItem().toString();
         Long clptid=sItems.getSelectedItemId()+1;
-        //Toast.makeText(getApplicationContext(), "Successfully changed to " + clptid + " . ", Toast.LENGTH_LONG).show();
         String cll=clptid.toString();
         new AsyncTask<String, Void, String>() {
             @Override
             protected String doInBackground(String... params) {
                 return wcfRequisitionList.updatecollectionpt(params[0],params[1]);
-
             }
-
             @Override
             protected void onPostExecute(String result) {
                 Toast.makeText(getApplicationContext(), "Successfully changed to " + selected + ".", Toast.LENGTH_SHORT).show();
-
             }
         }.execute(cll,deptid);
-
     }
 }
 

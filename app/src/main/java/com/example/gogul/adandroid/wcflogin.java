@@ -38,26 +38,21 @@ public class wcflogin extends java.util.HashMap<String,String> {
     {
 
         JSONObject b = JSONParser.getJSONFromUrl(host+"/wcflogin?userid="+userid+"&password="+psd+"&token="+token);
-       // Log.i("logincheck",b.toString());
         try {
             return new wcflogin(b.getString("Authenticate"),b.getString("Userid"),
                     b.getString("Role"),  b.getString("Deptid"),b.getString("Permission"),b.getString("EmpName"));
         } catch (Exception e) {
-           // Log.e("login", "JSONArray error");
+
             return new wcflogin("failed","","","","","");
         }
-       // return null;
-
     }
 
 
     public static String hostname()
     {
-          String host = "http://10.10.2.101/Service.svc";
+        String host = "http://10.10.2.101/Service.svc";
         return host;
     }
-
-
 
     public static  String  wcflogmeout(String userid)
     {

@@ -32,7 +32,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity  {
-// gokul
+
     SharedPreferences pref;
     String userid;
     String role;
@@ -49,13 +49,7 @@ public class MainActivity extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //Remove title bar
         getSupportActionBar().hide();
-
-
-
-
-
 
         setContentView(R.layout.activity_main);
         setTitle("login");
@@ -70,7 +64,6 @@ public class MainActivity extends AppCompatActivity  {
         fake = (LinearLayout) findViewById(R.id.progressBar1);
         Loginbtn =(Button)findViewById(R.id.button);
 
-        // manage notification...
         Intent getin = getIntent();
         if (getin.hasExtra("intent")) {
 
@@ -127,13 +120,8 @@ public class MainActivity extends AppCompatActivity  {
                     finishAffinity();
                 }
             }
-
         }
-
     }
-
-
-
 
     public void login(View v )
     {
@@ -143,15 +131,11 @@ public class MainActivity extends AppCompatActivity  {
         userid=enteruserid.getText().toString();
         psd=enterpsd.getText().toString();
         String token = FirebaseInstanceId.getInstance().getToken();
-        Log.e("taking",token.toString());
         new AsyncTask<String, Void,wcflogin>() {
-
             @Override
             protected wcflogin doInBackground(String... params) {
-
                 return wcflogin.gologin(params[0],params[1],params[2]);
             }
-
             @Override
             protected void onPostExecute(wcflogin result) {
                 if ( result.get("authenticate").equals("true")) {
@@ -171,12 +155,10 @@ public class MainActivity extends AppCompatActivity  {
                 }
             }
         }.execute(userid,psd,token);
-
     }
 
     public void getmein(wcflogin result)
     {
-        Log.i("role", result.toString());
         SharedPreferences.Editor editor = pref.edit();
         role=result.get("role");
         userid=result.get("userid");

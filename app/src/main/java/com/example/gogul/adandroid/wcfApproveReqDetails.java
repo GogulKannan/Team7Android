@@ -21,7 +21,6 @@ public wcfApproveReqDetails(String itemname, String quanity, String uom) {
         put("Quantity", quanity);
         put("UOM", uom);
         }
-
 public wcfApproveReqDetails() {
         }
 
@@ -29,7 +28,6 @@ public wcfApproveReqDetails() {
 public static List<wcfApproveReqDetails> getApproveReqDetails(String deptid,String reqid) {
         List<wcfApproveReqDetails> list = new ArrayList<wcfApproveReqDetails>();
         JSONArray a = JSONParser.getJSONArrayFromUrl(host+"/wcfApproveReqDetails?d="+deptid+"&r="+reqid);
-        Log.i("hoi",a.toString());
         try {
         for (int i =0; i<a.length(); i++) {
         JSONObject b = a.getJSONObject(i);
@@ -40,8 +38,7 @@ public static List<wcfApproveReqDetails> getApproveReqDetails(String deptid,Stri
         } catch (Exception e) {
         Log.e("wcfApproveReqDetails", "JSONArray error");
         }
-        Log.i("hoi",list.toString());
-        return list;
+                return list;
         }
 
 
@@ -49,7 +46,6 @@ public static List<wcfApproveReqDetails> getApproveReqDetails(String deptid,Stri
 
         public static String approvereq(String reqid) {
 
-              //  Log.i("app",reqid);
                 String a = JSONParser.getStream(host+"/wcfSubmitApproveReq?reqId="+reqid);
                 if(a.substring(1,a.length()-2).equals("True"))
                 {
@@ -64,7 +60,6 @@ public static List<wcfApproveReqDetails> getApproveReqDetails(String deptid,Stri
 
         public static String rejectreq(String reqid,String remarks) {
 
-                //  Log.i("app",reqid);
                 String a = JSONParser.getStream(host+"/wcfSubmitRejectReq?reqId="+reqid+"&remarks="+remarks);
                 if(a.substring(1,a.length()-2).equals("True"))
                 {
@@ -74,6 +69,4 @@ public static List<wcfApproveReqDetails> getApproveReqDetails(String deptid,Stri
                 return "Sorry, try again.";
 
         }
-
-
         }

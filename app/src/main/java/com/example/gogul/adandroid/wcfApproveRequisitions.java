@@ -29,7 +29,6 @@ public class wcfApproveRequisitions  extends java.util.HashMap<String,String> {
     public static List<wcfApproveRequisitions> getApproveRequisitions(String id) {
         List<wcfApproveRequisitions> list = new ArrayList<wcfApproveRequisitions>();
         JSONArray a = JSONParser.getJSONArrayFromUrl(host+"/wcfApproveRequisitions/"+id);
-        Log.i("hoi",a.toString());
         try {
             for (int i =0; i<a.length(); i++) {
                 JSONObject b = a.getJSONObject(i);
@@ -40,7 +39,6 @@ public class wcfApproveRequisitions  extends java.util.HashMap<String,String> {
         } catch (Exception e) {
             Log.e("wcfApproveRequisitions", "JSONArray error");
         }
-        Log.i("hoi",list.toString());
         return list;
     }
 }
