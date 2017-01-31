@@ -23,6 +23,7 @@ public class wcfRequisitionList extends java.util.HashMap<String,String> {
         put("OrderDate", OrderDate);
     }
 
+
     public wcfRequisitionList(){}
 
     public static List<wcfRequisitionList> reqlist(String id) {
