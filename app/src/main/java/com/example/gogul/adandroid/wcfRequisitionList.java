@@ -55,7 +55,7 @@ public class wcfRequisitionList extends java.util.HashMap<String,String> {
     public static Void collected(String collected , String itenno)
     {
         try{
-            JSONParser.getStream("http://10.10.2.101/Store/MarkAsCollected?collectedQuantity="+collected+"&itemNo="+itenno);
+            JSONParser.getStream("http://10.10.2.101/Team7ADProject/Store/MarkAsCollected?collectedQuantity="+collected+"&itemNo="+itenno);
         }catch (Exception e)
         {       }
 
