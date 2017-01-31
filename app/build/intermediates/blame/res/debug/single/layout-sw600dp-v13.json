@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Linda Chen\\Documents\\NUS\\ADProject\\Team7Android\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Linda Chen\\Documents\\NUS\\ADProject\\Team7Android\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }

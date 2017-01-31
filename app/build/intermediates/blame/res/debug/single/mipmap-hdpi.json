@@ -4,6 +4,14 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-hdpi\\makingapp.png"
     },
     {
+        "merged": "C:\\Users\\Linda Chen\\Documents\\NUS\\ADProject\\Team7Android\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\makingapp.png",
+        "source": "C:\\Users\\Linda Chen\\Documents\\NUS\\ADProject\\Team7Android\\Team7Android\\app\\src\\main\\res\\mipmap-hdpi\\makingapp.png"
+    },
+    {
+        "merged": "C:\\Users\\Linda Chen\\Documents\\NUS\\ADProject\\Team7Android\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\app.png",
+        "source": "C:\\Users\\Linda Chen\\Documents\\NUS\\ADProject\\Team7Android\\Team7Android\\app\\src\\main\\res\\mipmap-hdpi\\app.png"
+    },
+    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\app.png",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\mipmap-hdpi\\app.png"
     }
