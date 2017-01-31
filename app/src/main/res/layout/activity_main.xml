@@ -87,7 +87,7 @@
         android:layout_height="35dp"
         android:textSize="25dp"
         android:textColor="@color/white"
-        android:text="Connecting..."/>
+        android:text="Logging In"/>
 
 </LinearLayout>
 
