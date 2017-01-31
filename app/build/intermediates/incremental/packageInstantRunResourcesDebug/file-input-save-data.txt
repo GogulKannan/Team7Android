@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Jan 31 17:26:57 SGT 2017
+#Tue Jan 31 19:31:02 SGT 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\side_nav_bar.xml
 14.set=ANDROID_RESOURCE
