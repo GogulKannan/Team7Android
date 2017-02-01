@@ -293,11 +293,10 @@ public class UnfulfilledRequisitions extends AppCompatActivity
     {
 
         final Dialog d = new Dialog(this);
-        d.setTitle(deptname);
         d.setContentView(R.layout.successchange);
         d.setCancelable(false);
         TextView msgread= (TextView)d.findViewById(R.id.messagedia);
-        msgread.setText("have accepted the Disbursement.");
+        msgread.setText(deptname+" have accepted the Disbursement.");
         Button t = (Button) d.findViewById(R.id.btnsuccok);
         t.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -50,7 +50,7 @@ public class wcflogin extends java.util.HashMap<String,String> {
 
     public static String hostname()
     {
-        String host = "http://10.10.2.101/Team7ADProject/Service.svc";
+        String host = "http://172.17.254.183/Team7adproject/Service.svc";
         return host;
     }
 

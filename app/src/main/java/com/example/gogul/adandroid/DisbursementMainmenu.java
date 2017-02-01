@@ -189,11 +189,10 @@ public class DisbursementMainmenu extends AppCompatActivity
     {
 
         final Dialog d = new Dialog(this);
-        d.setTitle(deptname);
         d.setContentView(R.layout.successchange);
         d.setCancelable(false);
         TextView msgread= (TextView)d.findViewById(R.id.messagedia);
-        msgread.setText("have changed the collection point to "+location+".");
+        msgread.setText(deptname+" have changed the collection point to "+location+".");
         Button t = (Button) d.findViewById(R.id.btnsuccok);
         t.setOnClickListener(new View.OnClickListener() {
             @Override
