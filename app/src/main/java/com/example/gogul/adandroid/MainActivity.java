@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity  {
     String showdialog="no";
 
 
-    /////ttttt
+
 
 
     @Override

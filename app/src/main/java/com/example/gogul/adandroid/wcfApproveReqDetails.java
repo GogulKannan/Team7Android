@@ -5,6 +5,8 @@ import android.util.Log;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -59,8 +61,13 @@ public static List<wcfApproveReqDetails> getApproveReqDetails(String deptid,Stri
 
 
         public static String rejectreq(String reqid,String remarks) {
+                String rmarks="";
+                try{
+                        rmarks= URLEncoder.encode(remarks,"UTF-8");
+                }  catch (UnsupportedEncodingException un){}
 
-                String a = JSONParser.getStream(host+"/wcfSubmitRejectReq?reqId="+reqid+"&remarks="+remarks);
+
+                String a = JSONParser.getStream(host+"/wcfSubmitRejectReq?reqId="+reqid+"&remarks="+rmarks);
                 if(a.substring(1,a.length()-2).equals("True"))
                 {
                         return "Rejected";
