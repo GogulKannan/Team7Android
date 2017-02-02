@@ -294,6 +294,7 @@ public class UnfulfilledRequisitions extends AppCompatActivity
 
         final Dialog d = new Dialog(this);
         d.setContentView(R.layout.successchange);
+        d.setTitle("Disbursement Accepted");
         d.setCancelable(false);
         TextView msgread= (TextView)d.findViewById(R.id.messagedia);
         msgread.setText(deptname+" have accepted the Disbursement.");

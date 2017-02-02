@@ -190,6 +190,7 @@ public class DisbursementMainmenu extends AppCompatActivity
 
         final Dialog d = new Dialog(this);
         d.setContentView(R.layout.successchange);
+        d.setTitle("Collection point changed");
         d.setCancelable(false);
         TextView msgread= (TextView)d.findViewById(R.id.messagedia);
         msgread.setText(deptname+" have changed the collection point to "+location+".");

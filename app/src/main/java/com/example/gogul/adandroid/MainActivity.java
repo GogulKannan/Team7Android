@@ -134,6 +134,7 @@ public class MainActivity extends AppCompatActivity  {
         userid=enteruserid.getText().toString();
         psd=enterpsd.getText().toString();
         String token = FirebaseInstanceId.getInstance().getToken();
+        Log.e("token",token);
         new AsyncTask<String, Void,wcflogin>() {
             @Override
             protected wcflogin doInBackground(String... params) {
