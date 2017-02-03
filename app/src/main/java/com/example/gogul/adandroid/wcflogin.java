@@ -38,7 +38,7 @@ public class wcflogin extends java.util.HashMap<String,String> {
     {
 
         JSONObject b = JSONParser.getJSONFromUrl(host+"/wcflogin?userid="+userid+"&password="+psd+"&token="+token);
-        Log.e("d",host+"/wcflogin?userid="+userid+"&password="+psd+"&token="+token);
+
         try {
             return new wcflogin(b.getString("Authenticate"),b.getString("Userid"),
                     b.getString("Role"),  b.getString("Deptid"),b.getString("Permission"),b.getString("EmpName"));
@@ -51,7 +51,7 @@ public class wcflogin extends java.util.HashMap<String,String> {
 
     public static String hostname()
     {
-        String host = "http://172.17.254.183/kannan/Service.svc";
+        String host = "http://172.17.254.183/Service.svc";
         return host;
     }
 

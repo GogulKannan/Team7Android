@@ -193,6 +193,11 @@ public class Store extends AppCompatActivity
             return true;
         }
 
+        if (id == R.id.nav_all) {
+
+            showlist(forsorting);
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 

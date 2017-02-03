@@ -188,6 +188,11 @@ public class ViewRequisition extends AppCompatActivity
             showlist(list);
             return true;
         }
+        if (id == R.id.showall) {
+
+            showlist(forsorting);
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 

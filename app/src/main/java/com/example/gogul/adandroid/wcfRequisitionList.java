@@ -1,5 +1,6 @@
 package com.example.gogul.adandroid;
 
+import android.text.LoginFilter;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -53,12 +54,12 @@ public class wcfRequisitionList extends java.util.HashMap<String,String> {
         return(list);
     }
 
-    public static Void collected(String collected , String itenno)
+    public static Void collected(String collected , String itemno)
     {
         try{
-            JSONParser.getStream("http://172.17.254.183/kannan/Store/MarkAsCollected?collectedQuantity="+collected+"&itemNo="+itenno);
+            String a =   JSONParser.getStream(host+"/wcfMarkasCollected?collected="+collected+"&itemNo="+itemno);
         }catch (Exception e)
-        {       }
+        {   Log.e("ads",e.toString());    }
 
         return  null;
     }

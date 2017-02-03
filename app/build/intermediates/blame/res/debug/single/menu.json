@@ -4,10 +4,6 @@
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\menufordepartment.xml"
     },
     {
-        "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\view_collection_details.xml",
-        "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\view_collection_details.xml"
-    },
-    {
         "merged": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\build\\intermediates\\res\\merged\\debug\\menu\\store.xml",
         "source": "C:\\Users\\E0046709\\AndroidStudioProjects\\team7\\Team7Android\\app\\src\\main\\res\\menu\\store.xml"
     },

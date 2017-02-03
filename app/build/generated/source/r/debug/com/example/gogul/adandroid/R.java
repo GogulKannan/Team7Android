@@ -3118,7 +3118,7 @@ containing a value of this type.
         public static final int all=0x7f0e0036;
         public static final int always=0x7f0e0049;
         public static final int app_name=0x7f0e0094;
-        public static final int approve=0x7f0e0140;
+        public static final int approve=0x7f0e0142;
         public static final int auto=0x7f0e0025;
         public static final int beginning=0x7f0e0045;
         public static final int bottom=0x7f0e0026;
@@ -3274,6 +3274,7 @@ containing a value of this type.
         public static final int name23=0x7f0e00c7;
         public static final int nameRE=0x7f0e00d8;
         public static final int nav_Collected=0x7f0e013e;
+        public static final int nav_all=0x7f0e0140;
         public static final int nav_camera=0x7f0e0138;
         public static final int nav_gallery=0x7f0e0139;
         public static final int nav_manage=0x7f0e013d;
@@ -3309,7 +3310,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f0e0006;
         public static final int progress_horizontal=0x7f0e0007;
         public static final int radio=0x7f0e007b;
-        public static final int reject=0x7f0e0142;
+        public static final int reject=0x7f0e0143;
         public static final int reorder=0x7f0e00e0;
         public static final int reorderq=0x7f0e00e1;
         public static final int rfc822=0x7f0e0050;
@@ -3341,6 +3342,7 @@ containing a value of this type.
         public static final int showCustom=0x7f0e0015;
         public static final int showHome=0x7f0e0016;
         public static final int showTitle=0x7f0e0017;
+        public static final int showall=0x7f0e0144;
         public static final int smallLabel=0x7f0e0102;
         public static final int snackbar_action=0x7f0e0107;
         public static final int snackbar_text=0x7f0e0106;
@@ -3572,8 +3574,7 @@ containing a value of this type.
         public static final int menuforclerk=0x7f0f0000;
         public static final int menufordepartment=0x7f0f0001;
         public static final int store=0x7f0f0002;
-        public static final int view_collection_details=0x7f0f0003;
-        public static final int view_requisition=0x7f0f0004;
+        public static final int view_requisition=0x7f0f0003;
     }
     public static final class mipmap {
         public static final int app=0x7f030000;

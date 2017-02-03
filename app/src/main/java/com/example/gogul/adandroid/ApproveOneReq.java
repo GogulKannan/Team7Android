@@ -1,7 +1,9 @@
 package com.example.gogul.adandroid;
 
+import android.app.AlertDialog;
 import android.app.NotificationManager;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -194,7 +196,7 @@ public class ApproveOneReq extends AppCompatActivity implements NavigationView.O
         new AsyncTask<String, Void, String>() {
             @Override
             protected String doInBackground(String... params) {
-                return wcfApproveReqDetails.approvereq(params[0]);
+                return wcfApproveReqDetails.approvereq(params[0],params[1]);
             }
             @Override
             protected void onPostExecute(String result) {
@@ -207,7 +209,7 @@ public class ApproveOneReq extends AppCompatActivity implements NavigationView.O
                 startActivity(intent);
                 finish();
             }
-        }.execute(ReqID);
+        }.execute(ReqID,userid);
     }
 
     public void viewlist(View v) {
@@ -235,13 +237,34 @@ public class ApproveOneReq extends AppCompatActivity implements NavigationView.O
 
     public void rejectdone(View v)
     {
+        new AlertDialog.Builder(this)
+                .setTitle("Confirm Reject?")
+                //.setMessage("\nAre sure u wanted to reject this ?")
+                .setCancelable(false)
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        rejectconfirmation();
+
+                    }
+                })
+                .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                })
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
+    }
+
+    public void rejectconfirmation()
+    {
         TextView remarks = (TextView)findViewById(R.id.editText3);
         String text=remarks.getText().toString();
 
         new AsyncTask<String, Void, String>() {
             @Override
             protected String doInBackground(String... params) {
-                return wcfApproveReqDetails.rejectreq(params[0],params[1]);
+                return wcfApproveReqDetails.rejectreq(params[0],params[1],params[2]);
             }
             @Override
             protected void onPostExecute(String result) {
@@ -254,6 +277,6 @@ public class ApproveOneReq extends AppCompatActivity implements NavigationView.O
                 Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 finish();
             }
-        }.execute(ReqID,text);
+        }.execute(ReqID,text,userid);
     }
 }

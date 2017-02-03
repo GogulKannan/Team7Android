@@ -46,9 +46,9 @@ public static List<wcfApproveReqDetails> getApproveReqDetails(String deptid,Stri
 
 
 
-        public static String approvereq(String reqid) {
+        public static String approvereq(String reqid,String deptheadid) {
 
-                String a = JSONParser.getStream(host+"/wcfSubmitApproveReq?reqId="+reqid);
+                String a = JSONParser.getStream(host+"/wcfSubmitApproveReq?reqId="+reqid+"&deptheadid="+deptheadid);
                 if(a.substring(1,a.length()-2).equals("True"))
                 {
                         return "Approved";
@@ -60,14 +60,14 @@ public static List<wcfApproveReqDetails> getApproveReqDetails(String deptid,Stri
 
 
 
-        public static String rejectreq(String reqid,String remarks) {
+        public static String rejectreq(String reqid,String remarks,String deptheadid) {
                 String rmarks="";
                 try{
                         rmarks= URLEncoder.encode(remarks,"UTF-8");
                 }  catch (UnsupportedEncodingException un){}
 
 
-                String a = JSONParser.getStream(host+"/wcfSubmitRejectReq?reqId="+reqid+"&remarks="+rmarks);
+                String a = JSONParser.getStream(host+"/wcfSubmitRejectReq?reqId="+reqid+"&remarks="+rmarks+"&deptheadid="+deptheadid);
                 if(a.substring(1,a.length()-2).equals("True"))
                 {
                         return "Rejected";

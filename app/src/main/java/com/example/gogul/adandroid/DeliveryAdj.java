@@ -246,6 +246,8 @@ public class DeliveryAdj extends AppCompatActivity
                 finish();
                 Intent intent = new Intent(getApplicationContext(), DisbursementList.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                intent.putExtra("role", role);
+                intent.putExtra("id", userid);
                 intent.putExtra("CollectionPoint", CollectionPoint);
                 intent.putExtra("DisListID", DisListID);
                 intent.putExtra("DeliveryDatetime", DeliveryDatetime);
@@ -253,6 +255,7 @@ public class DeliveryAdj extends AppCompatActivity
                 intent.putExtra("RepPhone", RepPhone);
                 intent.putExtra("RepName", RepName);
                 startActivity(intent);
+
                 Toast.makeText(getApplicationContext(), "Confirmed", Toast.LENGTH_SHORT).show();
             }
         }.execute(c);

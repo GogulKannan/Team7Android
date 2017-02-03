@@ -832,7 +832,7 @@ int id alertTitle 0x7f0e0076
 int id all 0x7f0e0036
 int id always 0x7f0e0049
 int id app_name 0x7f0e0094
-int id approve 0x7f0e0140
+int id approve 0x7f0e0142
 int id auto 0x7f0e0025
 int id beginning 0x7f0e0045
 int id bottom 0x7f0e0026
@@ -988,6 +988,7 @@ int id name 0x7f0e00cf
 int id name23 0x7f0e00c7
 int id nameRE 0x7f0e00d8
 int id nav_Collected 0x7f0e013e
+int id nav_all 0x7f0e0140
 int id nav_camera 0x7f0e0138
 int id nav_gallery 0x7f0e0139
 int id nav_manage 0x7f0e013d
@@ -1023,7 +1024,7 @@ int id progressBar1 0x7f0e0097
 int id progress_circular 0x7f0e0006
 int id progress_horizontal 0x7f0e0007
 int id radio 0x7f0e007b
-int id reject 0x7f0e0142
+int id reject 0x7f0e0143
 int id reorder 0x7f0e00e0
 int id reorderq 0x7f0e00e1
 int id rfc822 0x7f0e0050
@@ -1055,6 +1056,7 @@ int id shortcut 0x7f0e007a
 int id showCustom 0x7f0e0015
 int id showHome 0x7f0e0016
 int id showTitle 0x7f0e0017
+int id showall 0x7f0e0144
 int id smallLabel 0x7f0e0102
 int id snackbar_action 0x7f0e0107
 int id snackbar_text 0x7f0e0106
@@ -1280,8 +1282,7 @@ int layout support_simple_spinner_dropdown_item 0x7f04008c
 int menu menuforclerk 0x7f0f0000
 int menu menufordepartment 0x7f0f0001
 int menu store 0x7f0f0002
-int menu view_collection_details 0x7f0f0003
-int menu view_requisition 0x7f0f0004
+int menu view_requisition 0x7f0f0003
 int mipmap app 0x7f030000
 int mipmap bg 0x7f030001
 int mipmap ff 0x7f030002
