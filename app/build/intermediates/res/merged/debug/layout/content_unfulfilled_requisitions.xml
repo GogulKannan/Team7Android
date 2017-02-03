@@ -52,8 +52,8 @@
 
     <TextView
         android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:id="@+id/spacebtwbtn"
+        android:layout_height="15dp"
+
         />
 
     <ListView
@@ -74,6 +74,7 @@
     <TextView
         android:layout_width="10dp"
         android:layout_height="wrap_content"
+        android:id="@+id/spacebtwbtn"
         />
     <Button
         android:text="View Retrieval List"

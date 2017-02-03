@@ -101,7 +101,7 @@ public class UnfulfilledRequisitions extends AppCompatActivity
                     btngenerste.setVisibility(View.GONE);
                     btnviewlist.setVisibility(View.VISIBLE);
                     btnclear.setVisibility(View.VISIBLE);
-                    space.setVisibility(View.GONE);
+                   space.setVisibility(View.GONE);
                 }
                 else
                 {
