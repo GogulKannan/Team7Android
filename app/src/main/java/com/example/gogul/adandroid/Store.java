@@ -1,6 +1,7 @@
 package com.example.gogul.adandroid;
 
 import android.app.AlertDialog;
+import android.app.DatePickerDialog;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -25,13 +26,18 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 public class Store extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener  {
@@ -45,6 +51,7 @@ public class Store extends AppCompatActivity
     ListView lv;
     List<wcfRetrivalList> forsorting = new ArrayList<wcfRetrivalList>();
     SharedPreferences pref;
+    Date sending;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -261,12 +268,12 @@ public class Store extends AppCompatActivity
 
 
 
-    public void allocatebutton()
+    public void allocatebutton(String sending)
     {
         new AsyncTask<String, Void, String>() {
             @Override
             protected String doInBackground(String... params) {
-                return wcfallocate.getallocate();
+                return wcfallocate.getallocate(params[0]);
             }
             @Override
             protected void onPostExecute(String result) {
@@ -277,26 +284,82 @@ public class Store extends AppCompatActivity
                 Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 finishAffinity();
             }
-        }.execute();
+        }.execute(sending);
     }
         public void bringlisth(View v)
         {
-            new AlertDialog.Builder(this)
-                    .setTitle("Confirm Allocation")
-                    .setMessage("Once allocated, updates can only be made on desktop.\nConfirm allocation?")
-                    .setCancelable(false)
-                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
-                            allocatebutton();
-                        }
-                    })
-                    .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int which) {
 
-                        }
-                    })
-                    .setIcon(android.R.drawable.ic_dialog_alert)
-                    .show();
+            dateshow();
+
         }
+
+    public void confirm(String  sending)
+    {
+        final  String se= sending;
+        new AlertDialog.Builder(this)
+                .setTitle("Confirm Allocation & Delivery Date")
+                .setMessage("Once allocated, updates can only be made on desktop.\nConfirm allocation?")
+                .setCancelable(false)
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        allocatebutton(se);
+                    }
+                })
+                .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+
+                    }
+                })
+                .setIcon(android.R.drawable.ic_dialog_alert)
+                .show();
+    }
+
+
+
+
+
+
+
+public void dateshow()
+{
+
+    String myFormat = "MM/dd/yyyy"; //In which you need put here
+    final  SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
+    final  Calendar myCalendar = Calendar.getInstance();
+    final Calendar today=Calendar.getInstance();
+
+    DatePickerDialog.OnDateSetListener date = new DatePickerDialog.OnDateSetListener() {
+        @Override
+        public void onDateSet(DatePicker view, int year, int monthOfYear,
+                              int dayOfMonth) {
+
+            myCalendar.set(Calendar.YEAR, year);
+            myCalendar.set(Calendar.MONTH, monthOfYear);
+            myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
+
+
+
+           String sending= sdf.format(myCalendar.getTime());
+            if(myCalendar.getTime().before(today.getTime()) ||myCalendar.getTime().equals(today.getTime()) )
+            {
+                Toast.makeText(getApplicationContext(), "Delivery date cant be before today.", Toast.LENGTH_SHORT).show();
+            }
+            else
+            {
+                confirm(sending);
+            }
+
+
+        }
+    };
+
+    new DatePickerDialog(Store.this, date, myCalendar
+            .get(Calendar.YEAR), myCalendar.get(Calendar.MONTH),
+            myCalendar.get(Calendar.DAY_OF_MONTH)).show();
+
+
+}
+
+
 
 }

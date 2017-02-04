@@ -128,7 +128,7 @@
 
         </TextView>
         <TextView
-            android:text="Needed"
+            android:text="Prepared"
             android:textColor="@color/darkblack"
             android:layout_width="100dp"
             android:layout_height="wrap_content"

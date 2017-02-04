@@ -23,9 +23,9 @@ public class wcfallocate extends java.util.HashMap<String,String> {
     public wcfallocate(){}
 
 
-    public static String getallocate() {
+    public static String getallocate(String datesending) {
 
-        String a = JSONParser.getStream(host+"/wcfallocate");
+        String a = JSONParser.getStream(host+"/wcfallocate?deliverydate="+datesending);
         if(a.substring(1,a.length()-2).equals("True"))
         {
             return "Allocated";

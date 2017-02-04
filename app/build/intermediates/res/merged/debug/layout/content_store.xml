@@ -29,6 +29,9 @@
         android:id="@+id/listall"
 
         android:layout_alignParentStart="true" />
+
+
+
     <TextView
         android:layout_width="10dp"
         android:layout_height="wrap_content"
@@ -36,7 +39,7 @@
         />
 
     <Button
-        android:text="Generate Disbursement"
+        android:text="Select Delivery Date"
         android:textColor="@color/white"
         android:background="@drawable/approvebutton"
         android:textSize="15dp"
