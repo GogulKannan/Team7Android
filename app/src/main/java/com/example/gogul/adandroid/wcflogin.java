@@ -13,9 +13,6 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by e0046709 on 1/20/2017.
- */
 
 public class wcflogin extends java.util.HashMap<String,String> {
 
@@ -51,6 +48,7 @@ public class wcflogin extends java.util.HashMap<String,String> {
 
     public static String hostname()
     {
+
         String host = "http://172.17.254.183/Service.svc";
         return host;
     }

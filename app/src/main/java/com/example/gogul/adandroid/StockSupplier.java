@@ -28,6 +28,8 @@ import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
 import com.google.android.gms.common.api.GoogleApiClient;
 
+
+
 public class StockSupplier extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
