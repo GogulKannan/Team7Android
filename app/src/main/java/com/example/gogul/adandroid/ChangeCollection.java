@@ -231,7 +231,12 @@ public class ChangeCollection extends AppCompatActivity
             }
             @Override
             protected void onPostExecute(String result) {
+                Log.e("reuslt",result);
+                if(result.equals("true"))
                 Toast.makeText(getApplicationContext(), "Successfully changed to " + selected + ".", Toast.LENGTH_SHORT).show();
+                else
+                    Toast.makeText(getApplicationContext(), "You have a collection due today. Please try again tomorrow.", Toast.LENGTH_SHORT).show();
+
             }
         }.execute(cll,deptid);
     }

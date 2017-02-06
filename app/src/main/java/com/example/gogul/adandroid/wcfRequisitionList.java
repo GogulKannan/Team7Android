@@ -65,13 +65,22 @@ public class wcfRequisitionList extends java.util.HashMap<String,String> {
     }
 
     public static String updatecollectionpt(String location,String deptid) {
+        String a="";
         try{
-            String a =   JSONParser.getStream(host+"/wcfChangecollectionpt?dept="+deptid+"&location="+location);
+           a =   JSONParser.getStream(host+"/wcfChangecollectionpt?dept="+deptid+"&location="+location);
            }catch (Exception e)
         {
             Log.e("changed","done");
         }
-        return  null;
+        if(a.substring(1,a.length()-2).equals("true"))
+        {
+            return "true";
+        }
+        else
+            return "false";
+
+
+
 
     }
 }

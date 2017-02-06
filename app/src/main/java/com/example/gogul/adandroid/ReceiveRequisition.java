@@ -170,7 +170,8 @@ public class ReceiveRequisition extends AppCompatActivity
                         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(intent);
                         finishAffinity();
-                        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();}
+                        Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
+                    }
                     else
                         Toast.makeText(getApplicationContext(), result, Toast.LENGTH_SHORT).show();
                 }

@@ -79,6 +79,7 @@ public class DisbursementList extends AppCompatActivity
         RepName= i.getStringExtra("RepName");
         RepPhone= i.getStringExtra("RepPhone");
         DisListID= i.getStringExtra("DisListID");
+        Log.e("s",DisListID);
         DeliveryDatetime= i.getStringExtra("DeliveryDatetime");
         locationpt.setText(CollectionPoint);
         dateandtime.setText(DeliveryDatetime);

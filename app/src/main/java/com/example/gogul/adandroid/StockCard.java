@@ -151,7 +151,7 @@ public class StockCard extends AppCompatActivity
             intent.putExtra("role", role);
             intent.putExtra("id", userid);
             startActivity(intent);
-            finishAffinity();
+//          finishAffinity();
 
         }else if (id == R.id.nav_send) {
             new AsyncTask<String, Void,String>() {

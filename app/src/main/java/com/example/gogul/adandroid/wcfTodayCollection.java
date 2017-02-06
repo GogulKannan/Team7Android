@@ -47,13 +47,14 @@ public class wcfTodayCollection extends java.util.HashMap<String,String> {
         String a="";
         try{
             a =   JSONParser.getStream(host+"/wcfAcceptCollection?DisbursementListID="+DisListID);
-
+            Log.e("Ddffd",a);
         }catch (Exception e)
         {
             Log.e("changed","done");
         }
         if(a.substring(1,a.length()-2).equals("true"))
         {
+            Log.e("Dd",a);
             return "Collected";
         }
         else

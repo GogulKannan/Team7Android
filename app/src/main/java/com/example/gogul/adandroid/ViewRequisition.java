@@ -166,6 +166,18 @@ public class ViewRequisition extends AppCompatActivity
             showlist(list);
             return true;
         }
+
+        if (id == R.id.processing) {
+            List<wcfRequisitionList> list = new ArrayList<wcfRequisitionList>();
+            for (wcfRequisitionList b :forsorting  ) {
+                if((b.get("status")).equals("Processing"))
+                {
+                    list.add(new wcfRequisitionList(b.get("Id"), b.get("Name"), b.get("status"), b.get("OrderDate")));
+                }
+            }
+            showlist(list);
+            return true;
+        }
         if (id == R.id.pending) {
             List<wcfRequisitionList> list = new ArrayList<wcfRequisitionList>();
             for (wcfRequisitionList b :forsorting  ) {
@@ -181,6 +193,17 @@ public class ViewRequisition extends AppCompatActivity
             List<wcfRequisitionList> list = new ArrayList<wcfRequisitionList>();
             for (wcfRequisitionList b :forsorting  ) {
                 if((b.get("status")).equals("Rejected"))
+                {
+                    list.add(new wcfRequisitionList(b.get("Id"), b.get("Name"), b.get("status"),b.get("OrderDate")));
+                }
+            }
+            showlist(list);
+            return true;
+        }
+        if (id == R.id.Outstanding) {
+            List<wcfRequisitionList> list = new ArrayList<wcfRequisitionList>();
+            for (wcfRequisitionList b :forsorting  ) {
+                if((b.get("status")).equals("Outstanding"))
                 {
                     list.add(new wcfRequisitionList(b.get("Id"), b.get("Name"), b.get("status"),b.get("OrderDate")));
                 }

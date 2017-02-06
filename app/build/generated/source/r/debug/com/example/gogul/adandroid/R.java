@@ -3089,6 +3089,7 @@ containing a value of this type.
         public static final int side_nav_bar=0x7f02009a;
     }
     public static final class id {
+        public static final int Outstanding=0x7f0e0144;
         public static final int action0=0x7f0e011e;
         public static final int action_bar=0x7f0e0082;
         public static final int action_bar_activity_content=0x7f0e0000;
@@ -3118,7 +3119,7 @@ containing a value of this type.
         public static final int all=0x7f0e0036;
         public static final int always=0x7f0e0049;
         public static final int app_name=0x7f0e0094;
-        public static final int approve=0x7f0e0142;
+        public static final int approve=0x7f0e0143;
         public static final int auto=0x7f0e0025;
         public static final int beginning=0x7f0e0045;
         public static final int bottom=0x7f0e0026;
@@ -3306,11 +3307,12 @@ containing a value of this type.
         public static final int plain=0x7f0e004f;
         public static final int pn2=0x7f0e00e6;
         public static final int pn3=0x7f0e00e9;
+        public static final int processing=0x7f0e0142;
         public static final int progressBar1=0x7f0e0097;
         public static final int progress_circular=0x7f0e0006;
         public static final int progress_horizontal=0x7f0e0007;
         public static final int radio=0x7f0e007b;
-        public static final int reject=0x7f0e0143;
+        public static final int reject=0x7f0e0145;
         public static final int reorder=0x7f0e00e0;
         public static final int reorderq=0x7f0e00e1;
         public static final int rfc822=0x7f0e0050;
@@ -3342,7 +3344,7 @@ containing a value of this type.
         public static final int showCustom=0x7f0e0015;
         public static final int showHome=0x7f0e0016;
         public static final int showTitle=0x7f0e0017;
-        public static final int showall=0x7f0e0144;
+        public static final int showall=0x7f0e0146;
         public static final int smallLabel=0x7f0e0102;
         public static final int snackbar_action=0x7f0e0107;
         public static final int snackbar_text=0x7f0e0106;

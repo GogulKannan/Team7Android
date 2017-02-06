@@ -340,7 +340,7 @@ public void dateshow()
 
 
            String sending= sdf.format(myCalendar.getTime());
-            if(myCalendar.getTime().before(today.getTime()) ||myCalendar.getTime().equals(today.getTime()) )
+            if(myCalendar.getTime().before(today.getTime()) )
             {
                 Toast.makeText(getApplicationContext(), "Delivery date cant be before today.", Toast.LENGTH_SHORT).show();
             }

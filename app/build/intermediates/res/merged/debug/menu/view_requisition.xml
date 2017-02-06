@@ -8,12 +8,21 @@
         android:title="Pending Approval"
         app:showAsAction="never" />
     <item
+        android:id="@+id/processing"
+        android:orderInCategory="100"
+        android:title="Processing"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/approve"
         android:orderInCategory="100"
         android:title="Approved"
         app:showAsAction="never" />
 
-
+    <item
+        android:id="@+id/Outstanding"
+        android:orderInCategory="100"
+        android:title="Outstanding"
+        app:showAsAction="never" />
     <item
         android:id="@+id/reject"
         android:orderInCategory="100"
